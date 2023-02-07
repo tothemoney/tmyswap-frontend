@@ -11,8 +11,8 @@ import {
   NftFillIcon,
   MoreIcon,
   DropdownMenuItems,
-} from '@pancakeswap/uikit'
-import { ContextApi } from '@pancakeswap/localization'
+} from '@tmyswap/uikit'
+import { ContextApi } from '@tmyswap/localization'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
 import { getPerpetualUrl } from 'utils/getPerpetualUrl'
 import { SUPPORT_ONLY_BSC } from 'config/constants/supportChains'
@@ -74,7 +74,7 @@ const config: (
         },
         {
           label: t('Bridge'),
-          href: 'https://bridge.pancakeswap.finance/',
+          href: 'https://bridge.tmyswap.org/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
@@ -190,7 +190,7 @@ const config: (
         },
         {
           label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          href: 'https://docs.tmyswap.org',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),

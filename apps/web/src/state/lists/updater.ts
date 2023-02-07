@@ -1,5 +1,5 @@
-import { getVersionUpgrade, VersionUpgrade } from '@pancakeswap/token-lists'
-import { acceptListUpdate, updateListVersion, useFetchListCallback } from '@pancakeswap/token-lists/react'
+import { getVersionUpgrade, VersionUpgrade } from '@tmyswap/token-lists'
+import { acceptListUpdate, updateListVersion, useFetchListCallback } from '@tmyswap/token-lists/react'
 import { EXCHANGE_PAGE_PATHS } from 'config/constants/exchange'
 import { UNSUPPORTED_LIST_URLS } from 'config/constants/lists'
 import useWeb3Provider from 'hooks/useActiveWeb3React'

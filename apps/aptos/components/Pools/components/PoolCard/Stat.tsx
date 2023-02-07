@@ -1,7 +1,7 @@
-import { Flex, Text, Pool } from '@pancakeswap/uikit'
+import { Flex, Text, Pool } from '@tmyswap/uikit'
 import BigNumber from 'bignumber.js'
-import { useTranslation } from '@pancakeswap/localization'
-import { Coin } from '@pancakeswap/aptos-swap-sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { Coin } from '@tmyswap/aptos-swap-sdk'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 
 export const AprInfo: React.FC<

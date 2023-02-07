@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Flex, Heading, Text, Link, useMatchBreakpoints, OpenNewIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Heading, Text, Link, useMatchBreakpoints, OpenNewIcon } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Container from 'components/Layout/Container'
 import { useAccount } from 'wagmi'
@@ -113,7 +113,7 @@ const Footer = () => {
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://docs.pancakeswap.finance/">
+        <Link external href="https://docs.tmyswap.org/">
           {t('Learn how to start')}
           <OpenNewIcon color="primary" ml="4px" />
         </Link>

@@ -1,4 +1,4 @@
-import { Currency, Price } from '@pancakeswap/aptos-swap-sdk'
+import { Currency, Price } from '@tmyswap/aptos-swap-sdk'
 
 /**
  * Helper to multiply a Price object by an arbitrary amount

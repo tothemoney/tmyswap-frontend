@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
-import { useTranslation } from '@pancakeswap/localization'
-import { bscTokens } from '@pancakeswap/tokens'
+import { useTranslation } from '@tmyswap/localization'
+import { bscTokens } from '@tmyswap/tokens'
 import {
   ArrowForwardIcon,
   BalanceInput,
@@ -13,7 +13,7 @@ import {
   Ticket,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import BigNumber from 'bignumber.js'
 import ApproveConfirmButtons, { ButtonArrangement } from 'components/ApproveConfirmButtons'
@@ -31,8 +31,8 @@ import { usePriceCakeBusd } from 'state/farms/hooks'
 import { fetchUserTicketsAndLotteries } from 'state/lottery'
 import { useLottery } from 'state/lottery/hooks'
 import styled from 'styled-components'
-import { BIG_ZERO, BIG_ONE_HUNDRED } from '@pancakeswap/utils/bigNumber'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { BIG_ZERO, BIG_ONE_HUNDRED } from '@tmyswap/utils/bigNumber'
+import { getFullDisplayBalance } from '@tmyswap/utils/formatBalance'
 import { requiresApproval } from 'utils/requiresApproval'
 import EditNumbersModal from './EditNumbersModal'
 import NumTicketsToBuyButton from './NumTicketsToBuyButton'

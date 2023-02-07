@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AtomBox } from "@pancakeswap/ui";
+import { AtomBox } from "@tmyswap/ui";
 import styled from "styled-components";
 import { ArrowBackIcon } from "../../components/Svg";
 import { IconButton } from "../../components/Button";

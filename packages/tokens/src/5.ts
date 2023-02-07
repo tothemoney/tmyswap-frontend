@@ -1,4 +1,4 @@
-import { ChainId, ERC20Token, WETH9 } from '@pancakeswap/sdk'
+import { ChainId, ERC20Token, WETH9 } from '@tmyswap/sdk'
 import { USDC_GOERLI } from './common'
 
 export const goerliTestnetTokens = {

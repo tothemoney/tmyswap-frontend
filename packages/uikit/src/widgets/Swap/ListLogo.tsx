@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useHttpLocations } from "@pancakeswap/hooks";
+import { useHttpLocations } from "@tmyswap/hooks";
 import TokenLogo from "../../components/TokenLogo/TokenLogo";
 
 const StyledListLogo = styled(TokenLogo)<{ size: string }>`

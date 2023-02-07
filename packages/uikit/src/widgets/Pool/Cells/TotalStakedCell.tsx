@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import BigNumber from "bignumber.js";
-import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
+import { getBalanceNumber } from "@tmyswap/utils/formatBalance";
 import { BaseCell, CellContent } from "./BaseCell";
 import { Text } from "../../../components/Text";
 import { Skeleton } from "../../../components/Skeleton";

@@ -1,7 +1,7 @@
-import { SerializedFarm } from '@pancakeswap/farms'
-import farms1 from '@pancakeswap/farms/constants/1'
-import farms56 from '@pancakeswap/farms/constants/56'
-import { Native } from '@pancakeswap/sdk'
+import { SerializedFarm } from '@tmyswap/farms'
+import farms1 from '@tmyswap/farms/constants/1'
+import farms56 from '@tmyswap/farms/constants/56'
+import { Native } from '@tmyswap/sdk'
 import { getLpContract } from 'utils/contractHelpers'
 import { describe, it } from 'vitest'
 

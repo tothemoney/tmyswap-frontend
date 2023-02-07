@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   Box,
   Card,
@@ -9,13 +9,13 @@ import {
   ExpandableLabel,
   useMatchBreakpoints,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { Ifo, PoolIds } from 'config/constants/types'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useERC20 } from 'hooks/useContract'
-import { useIsWindowVisible } from '@pancakeswap/hooks'
+import { useIsWindowVisible } from '@tmyswap/hooks'
 import useSWRImmutable from 'swr/immutable'
 import { FAST_INTERVAL } from 'config/constants'
 import { useRouter } from 'next/router'

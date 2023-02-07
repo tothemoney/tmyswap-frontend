@@ -5,7 +5,7 @@ import { SerializedPool } from 'state/types'
 import { transformPool } from 'state/pools/helpers'
 import { getCakeContract } from 'utils/contractHelpers'
 import { PoolCategory } from 'config/constants/types'
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@tmyswap/tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { fetchUserStakeBalances, fetchUserPendingRewards } from './fetchPoolsUser'
 

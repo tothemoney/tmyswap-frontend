@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId, NATIVE } from '@pancakeswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { ChainId, NATIVE } from '@tmyswap/sdk'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -12,7 +12,7 @@ import {
   UserMenuDivider,
   UserMenuItem,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount, useNetwork } from 'wagmi'
 import { useActiveChainId, useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useNetworkConnectorUpdater } from 'hooks/useActiveWeb3React'
@@ -59,10 +59,10 @@ const NetworkSelect = ({ switchNetwork, chainId }) => {
         style={{ justifyContent: 'flex-start' }}
         as="a"
         target="_blank"
-        href="https://aptos.pancakeswap.finance/swap"
+        href="https://aptos.tmyswap.org/swap"
       >
         <Image
-          src="https://aptos.pancakeswap.finance/images/apt.png"
+          src="https://aptos.tmyswap.org/images/apt.png"
           width={24}
           height={24}
           unoptimized

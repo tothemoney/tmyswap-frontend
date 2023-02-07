@@ -1,6 +1,6 @@
 import { useEffect, useCallback, useState, useMemo, useRef } from 'react'
 import BigNumber from 'bignumber.js'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tmyswap/sdk'
 import { useAccount } from 'wagmi'
 import {
   Image,
@@ -21,14 +21,14 @@ import {
   PageHeader,
   NextLinkFromReactRouter,
   ToggleView,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import styled from 'styled-components'
 import Page from 'components/Layout/Page'
 import { useFarms, usePollFarmsWithUserData, usePriceCakeBusd } from 'state/farms/hooks'
 import { useCakeVaultUserData } from 'state/pools/hooks'
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { DeserializedFarm, FarmWithStakedValue, filterFarmsByQuery } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
+import { useIntersectionObserver } from '@tmyswap/hooks'
+import { DeserializedFarm, FarmWithStakedValue, filterFarmsByQuery } from '@tmyswap/farms'
+import { useTranslation } from '@tmyswap/localization'
 import { getFarmApr } from 'utils/apr'
 import orderBy from 'lodash/orderBy'
 import { useUserFarmStakedOnly, useUserFarmsViewMode } from 'state/user/hooks'
@@ -462,7 +462,7 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
                 external
                 color="failure"
                 fontSize={['16px', null, '20px']}
-                href="https://v1-farms.pancakeswap.finance/farms/history"
+                href="https://v1-farms.tmyswap.org/farms/history"
               >
                 {t('check out v1 farms')}.
               </FinishedTextLink>

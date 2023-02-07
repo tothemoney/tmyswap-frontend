@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Text } from "../../components";
 
 export function LiquidityNotConnect() {

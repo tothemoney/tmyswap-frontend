@@ -1,4 +1,4 @@
-import { fetchCoin, FetchCoinArgs, FetchCoinResult } from '@pancakeswap/awgmi/core'
+import { fetchCoin, FetchCoinArgs, FetchCoinResult } from '@tmyswap/awgmi/core'
 
 import { QueryConfig, QueryFunctionArgs } from '../types'
 import { useQuery } from './utils/useQuery'

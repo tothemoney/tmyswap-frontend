@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@tmyswap/uikit'
 import styled from 'styled-components'
 
 export const StyledPriceChart = styled(Box)<{

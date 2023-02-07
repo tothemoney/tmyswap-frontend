@@ -3,7 +3,7 @@ import BigNumber from 'bignumber.js'
 import _toNumber from 'lodash/toNumber'
 import _get from 'lodash/get'
 import { FixedNumber } from '@ethersproject/bignumber'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
 import { SECONDS_IN_YEAR } from 'config'
 
 import { CAKE_PID } from 'config/constants'

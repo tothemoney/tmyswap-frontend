@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@pancakeswap/sdk'
+import { CurrencyAmount, Token } from '@tmyswap/sdk'
 import {
   BlockIcon,
   Box,
@@ -16,14 +16,14 @@ import {
   UserMenu,
   UserMenuDivider,
   UserMenuItem,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useRouter } from 'next/router'
 import { useTheme as useNextTheme } from 'next-themes'
 import Image from 'next/image'
 import NextLink from 'next/link'
 import { useEffect, useReducer, useRef, useState } from 'react'
 import styled, { useTheme } from 'styled-components'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import getTimePeriods from '@tmyswap/utils/getTimePeriods'
 import { CHAINS_STARGATE } from './stargate/config'
 import { findChainByStargateId } from './stargate/network'
 
@@ -87,7 +87,7 @@ export function Menu() {
   return (
     <Flex height="56px" bg="backgroundAlt" px="16px" alignItems="center" justifyContent="space-between" zIndex={9}>
       <Flex>
-        <Logo href="https://pancakeswap.finance" />
+        <Logo href="https://tmyswap.org" />
 
         <Flex pl={['10px', null, '50px']}>
           {MenuConfig.map((menu) => (
@@ -97,7 +97,7 @@ export function Menu() {
               </NextLink>
             </Box>
           ))}
-          <a href="https://pancakeswap.finance/swap" target="_blank" rel="noreferrer noopener">
+          <a href="https://tmyswap.org/swap" target="_blank" rel="noreferrer noopener">
             <StyledMenuItem>Swap</StyledMenuItem>
           </a>
         </Flex>

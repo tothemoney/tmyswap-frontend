@@ -1,10 +1,10 @@
 import BigNumber from "bignumber.js";
 import { useMemo } from "react";
 import styled from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { parseUnits } from "@ethersproject/units";
-import { formatBigNumber } from "@pancakeswap/utils/formatBalance";
-import { trimTrailZero } from "@pancakeswap/utils/trimTrailZero";
+import { formatBigNumber } from "@tmyswap/utils/formatBalance";
+import { trimTrailZero } from "@tmyswap/utils/trimTrailZero";
 import { Flex } from "../../components/Box";
 import { Text } from "../../components/Text";
 import { Link } from "../../components/Link";

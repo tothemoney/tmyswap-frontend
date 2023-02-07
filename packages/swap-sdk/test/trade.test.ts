@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-import { TradeType, Percent, Token, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { TradeType, Percent, Token, CurrencyAmount } from '@tmyswap/swap-sdk-core'
 import { Pair, Route, Trade, Native } from '../src/entities'
 import { ChainId, WNATIVE } from '../src/constants'
 

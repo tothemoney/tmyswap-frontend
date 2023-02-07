@@ -1,10 +1,10 @@
-import { Box, Button, Flex, Skeleton, Text, CalculateIcon, useModal, Balance, Pool } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Button, Flex, Skeleton, Text, CalculateIcon, useModal, Balance, Pool } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { DeserializedLockedVaultUser, VaultKey, DeserializedVaultUser } from 'state/types'
 import { useVaultApy } from 'hooks/useVaultApy'
 import { VaultPosition } from 'utils/cakePool'
 import { MAX_LOCK_DURATION } from 'config/constants/pools'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@tmyswap/sdk'
 
 import { VaultRoiCalculatorModal } from '../../Vault/VaultRoiCalculatorModal'
 

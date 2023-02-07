@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   AddIcon,
   Button,
@@ -8,7 +8,7 @@ import {
   useModal,
   useToast,
   Farm as FarmUI,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -20,7 +20,7 @@ import { fetchFarmUserDataAsync } from 'state/farms'
 import { useFarmUser, usePriceCakeBusd, useFarmFromPid } from 'state/farms/hooks'
 import styled from 'styled-components'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
-import { FarmWithStakedValue } from '@pancakeswap/farms'
+import { FarmWithStakedValue } from '@tmyswap/farms'
 import useApproveFarm from 'views/Farms/hooks/useApproveFarm'
 import useStakeFarms from 'views/Farms/hooks/useStakeFarms'
 import useUnstakeFarms from 'views/Farms/hooks/useUnstakeFarms'

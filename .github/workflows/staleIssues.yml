@@ -6,7 +6,7 @@ on:
 jobs:
   stale:
     runs-on: ubuntu-latest
-    if: github.repository == 'pancakeswap/pancake-frontend'
+    if: github.repository == 'tothemoney/tmyswap-frontend'
     steps:
       - uses: actions/stale@v4
         with:

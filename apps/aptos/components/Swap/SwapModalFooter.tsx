@@ -1,5 +1,5 @@
-import { Trade, Currency, CurrencyAmount, TradeType } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { Trade, Currency, CurrencyAmount, TradeType } from '@tmyswap/aptos-swap-sdk'
+import { useTranslation } from '@tmyswap/localization'
 import {
   AutoColumn,
   AutoRow,
@@ -10,7 +10,7 @@ import {
   Swap as SwapUI,
   Text,
   SwapCallbackError,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useMemo } from 'react'
 import { Field } from 'state/swap'
 import styled from 'styled-components'

@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { AtomBox } from "@pancakeswap/ui/components/AtomBox";
+import { useTranslation } from "@tmyswap/localization";
+import { AtomBox } from "@tmyswap/ui/components/AtomBox";
 import { CardBody, CardFooter } from "../../../components/Card";
 import { Box } from "../../../components/Box";
 import { Text } from "../../../components/Text";

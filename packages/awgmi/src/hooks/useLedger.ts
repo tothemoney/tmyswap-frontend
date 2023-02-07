@@ -1,4 +1,4 @@
-import { FetchLedgerArgs, fetchLedgerInfo, FetchLedgerResult } from '@pancakeswap/awgmi/core'
+import { FetchLedgerArgs, fetchLedgerInfo, FetchLedgerResult } from '@tmyswap/awgmi/core'
 
 import { QueryConfig, QueryFunctionArgs } from '../types'
 import { useNetwork } from './useNetwork'

@@ -14,11 +14,11 @@ import {
   ModalProps,
   ModalTitle,
   Text,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'
-import { formatBigNumber } from '@pancakeswap/utils/formatBalance'
+import { formatBigNumber } from '@tmyswap/utils/formatBalance'
 import { SaleStatusEnum } from 'views/PancakeSquad/types'
 
 interface BuyTicketsModalProps extends ModalProps {

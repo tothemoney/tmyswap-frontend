@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/ui-wallets",
+  "name": "@tmyswap/ui-wallets",
   "version": "0.0.2",
   "main": "src/index.ts",
   "sideEffects": [
@@ -7,7 +7,7 @@
   ],
   "private": true,
   "dependencies": {
-    "@pancakeswap/uikit": "*",
+    "@tmyswap/uikit": "*",
     "qrcode.react": "^3.1.0"
   },
   "peerDependencies": {

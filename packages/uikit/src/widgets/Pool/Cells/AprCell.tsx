@@ -1,6 +1,6 @@
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { BIG_ZERO } from "@tmyswap/utils/bigNumber";
 import BigNumber from "bignumber.js";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { createElement, FunctionComponent } from "react";
 import { CellContent, BaseCell } from "./BaseCell";
 import { useMatchBreakpoints } from "../../../contexts";

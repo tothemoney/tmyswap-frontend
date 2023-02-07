@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { Button, Text, useModal, confirmPriceImpactWithoutFee } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Currency, CurrencyAmount, TradeType } from '@tmyswap/sdk'
+import { Button, Text, useModal, confirmPriceImpactWithoutFee } from '@tmyswap/uikit'
 
-import { TradeWithStableSwap } from '@pancakeswap/smart-router/evm'
+import { TradeWithStableSwap } from '@tmyswap/smart-router/evm'
 import { GreyCard } from 'components/Card'
 import { CommitButton } from 'components/CommitButton'
 import ConnectWalletButton from 'components/ConnectWalletButton'

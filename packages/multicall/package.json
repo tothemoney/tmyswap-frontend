@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/multicall",
+  "name": "@tmyswap/multicall",
   "version": "0.0.2",
   "sideEffects": false,
   "scripts": {
@@ -8,7 +8,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "peerDependencies": {
-    "@pancakeswap/sdk": "^3.1.0"
+    "@tmyswap/sdk": "^3.1.0"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.0.0",
@@ -16,7 +16,7 @@
     "@ethersproject/providers": "^5.0.0"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "^3.1.0",
+    "@tmyswap/sdk": "^3.1.0",
     "tsconfig": "*",
     "tsup": "^5.10.1",
     "typescript": "^4.9.4"

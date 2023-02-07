@@ -1,6 +1,6 @@
-import { Currency } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Image, Link, Modal, ModalBody, OpenNewIcon, Text } from '@pancakeswap/uikit'
+import { Currency } from '@tmyswap/aptos-swap-sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { Button, Image, Link, Modal, ModalBody, OpenNewIcon, Text } from '@tmyswap/uikit'
 
 interface Props {
   currency: Currency
@@ -13,7 +13,7 @@ const GetTokenModal: React.FC<React.PropsWithChildren<Props>> = ({ currency, onD
     <Modal title={t('%symbol% required', { symbol: currency.symbol })} onDismiss={onDismiss}>
       <ModalBody maxWidth="288px">
         <Image
-          src={`https://tokens.pancakeswap.finance/images/aptos/${currency.address}.png`}
+          src={`https://tokens.tmyswap.org/images/aptos/${currency.address}.png`}
           width={72}
           height={72}
           margin="auto"

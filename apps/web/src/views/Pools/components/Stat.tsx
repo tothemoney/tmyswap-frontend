@@ -1,8 +1,8 @@
-import { Flex, Text, TooltipText, useTooltip, Pool } from '@pancakeswap/uikit'
+import { Flex, Text, TooltipText, useTooltip, Pool } from '@tmyswap/uikit'
 import BigNumber from 'bignumber.js'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { isLocked, isStaked } from 'utils/cakePool'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@tmyswap/sdk'
 import useAvgLockDuration from './LockedPool/hooks/useAvgLockDuration'
 import Apr from './Apr'
 

@@ -1,8 +1,8 @@
 import { useEffect, useCallback, useState, useMemo, useRef, createContext } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import BigNumber from 'bignumber.js'
 import { useRouter } from 'next/router'
-import { useAccount } from '@pancakeswap/awgmi'
+import { useAccount } from '@tmyswap/awgmi'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { usePriceCakeUsdc } from 'hooks/useStablePrice'
 import {
@@ -20,7 +20,7 @@ import {
   SearchInput,
   Farm as FarmUI,
   ToggleView,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import styled from 'styled-components'
 import orderBy from 'lodash/orderBy'
 import Page from 'components/Layout/Page'
@@ -28,10 +28,10 @@ import { useFarmViewMode, ViewMode, useFarmsStakedOnly } from 'state/user'
 import NoSSR from 'components/NoSSR'
 
 import { useFarms } from 'state/farms/hook'
-import { useIntersectionObserver } from '@pancakeswap/hooks'
+import { useIntersectionObserver } from '@tmyswap/hooks'
 import { getFarmApr } from 'utils/farmApr'
-import type { DeserializedFarm } from '@pancakeswap/farms'
-import { FarmWithStakedValue, filterFarmsByQuery } from '@pancakeswap/farms'
+import type { DeserializedFarm } from '@tmyswap/farms'
+import { FarmWithStakedValue, filterFarmsByQuery } from '@tmyswap/farms'
 import Table from './FarmTable/FarmTable'
 
 const ControlContainer = styled.div`

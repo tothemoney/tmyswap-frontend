@@ -33,7 +33,7 @@ jobs:
         run: yarn test:config
 
       - name: Build list
-        run: yarn turbo run build --filter=@pancakeswap/farms
+        run: yarn turbo run build --filter=@tmyswap/farms
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1

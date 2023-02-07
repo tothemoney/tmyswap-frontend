@@ -1,11 +1,11 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 
 import BigNumber from "bignumber.js";
 import { useCallback, useEffect, useState } from "react";
 import styled, { useTheme } from "styled-components";
-import { getInterestBreakdown } from "@pancakeswap/utils/compoundApyHelpers";
-import { formatNumber, getDecimalAmount, getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
-import removeTrailingZeros from "@pancakeswap/utils/removeTrailingZeros";
+import { getInterestBreakdown } from "@tmyswap/utils/compoundApyHelpers";
+import { formatNumber, getDecimalAmount, getFullDisplayBalance } from "@tmyswap/utils/formatBalance";
+import removeTrailingZeros from "@tmyswap/utils/removeTrailingZeros";
 
 import PercentageButton from "./PercentageButton";
 import getThemeValue from "../../util/getThemeValue";

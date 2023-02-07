@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Link from 'next/link'
-import { Flex, HelpIcon, Button, PrizeIcon } from '@pancakeswap/uikit'
+import { Flex, HelpIcon, Button, PrizeIcon } from '@tmyswap/uikit'
 import { useGetPredictionsStatus } from 'state/predictions/hooks'
 import { PredictionStatus } from 'state/types'
 import FlexRow from './FlexRow'
@@ -80,7 +80,7 @@ const Menu = () => {
                 <Button
                   variant="subtle"
                   as="a"
-                  href="https://docs.pancakeswap.finance/products/prediction"
+                  href="https://docs.tmyswap.org/products/prediction"
                   target="_blank"
                   rel="noreferrer noopener"
                   width="48px"

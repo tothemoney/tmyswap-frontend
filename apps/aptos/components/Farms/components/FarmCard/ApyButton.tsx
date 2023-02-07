@@ -1,10 +1,10 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text, TooltipText, useModal, useTooltip, Farm as FarmUI, RoiCalculatorModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Text, TooltipText, useModal, useTooltip, Farm as FarmUI, RoiCalculatorModal } from '@tmyswap/uikit'
 import BigNumber from 'bignumber.js'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
 import { useFarmUserInfoCache } from 'state/farms/hook'
-import { useAccountBalance } from '@pancakeswap/awgmi'
+import { useAccountBalance } from '@tmyswap/awgmi'
 import { FARM_DEFAULT_DECIMALS } from '../../constants'
 
 export interface ApyButtonProps {

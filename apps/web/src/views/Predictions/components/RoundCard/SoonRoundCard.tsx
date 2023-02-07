@@ -1,5 +1,5 @@
-import { Card, CardBody, Text, WaitIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardBody, Text, WaitIcon } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { NodeRound, BetPosition } from 'state/types'
 import useTheme from 'hooks/useTheme'
 import { formatRoundTime } from '../../helpers'

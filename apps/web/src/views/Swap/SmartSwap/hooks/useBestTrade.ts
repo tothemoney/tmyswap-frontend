@@ -1,8 +1,8 @@
 import { useDeferredValue } from 'react'
 import useSWR from 'swr'
-import { CurrencyAmount, TradeType, Currency, Pair } from '@pancakeswap/sdk'
-import { getBestTradeExactIn, getBestTradeExactOut, createStableSwapPair } from '@pancakeswap/smart-router/evm'
-import { deserializeToken } from '@pancakeswap/token-lists'
+import { CurrencyAmount, TradeType, Currency, Pair } from '@tmyswap/sdk'
+import { getBestTradeExactIn, getBestTradeExactOut, createStableSwapPair } from '@tmyswap/smart-router/evm'
+import { deserializeToken } from '@tmyswap/token-lists'
 import { getAddress } from '@ethersproject/address'
 
 import { useAllCommonPairs } from 'hooks/Trades'

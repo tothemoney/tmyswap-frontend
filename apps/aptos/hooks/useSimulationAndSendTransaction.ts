@@ -1,4 +1,4 @@
-import { useSendTransaction, useSimulateTransaction } from '@pancakeswap/awgmi'
+import { useSendTransaction, useSimulateTransaction } from '@tmyswap/awgmi'
 import { useCallback } from 'react'
 
 const SAFE_FACTOR = 1.5

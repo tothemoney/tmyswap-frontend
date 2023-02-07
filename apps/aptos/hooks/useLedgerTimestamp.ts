@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import { useSWRConfig } from 'swr'
 import useSWRImmutable from 'swr/immutable'
-import { fetchLedgerInfo } from '@pancakeswap/awgmi/core'
+import { fetchLedgerInfo } from '@tmyswap/awgmi/core'
 import { useActiveChainId } from './useNetwork'
 
 export const useLedgerTimestamp = () => {

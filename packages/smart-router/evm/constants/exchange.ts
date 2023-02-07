@@ -1,5 +1,5 @@
-import { ChainId, Token, WBNB, WNATIVE } from '@pancakeswap/sdk'
-import { bscTokens, bscTestnetTokens, BUSD, USDC, USDT } from '@pancakeswap/tokens'
+import { ChainId, Token, WBNB, WNATIVE } from '@tmyswap/sdk'
+import { bscTokens, bscTestnetTokens, BUSD, USDC, USDT } from '@tmyswap/tokens'
 
 import { ChainMap, ChainTokenList } from '../types'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { LinkExternal, ModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { LinkExternal, ModalV2 } from '@tmyswap/uikit'
 import DisclaimerModal from 'components/DisclaimerModal'
 import { ConnectorNames, getDocLink } from 'config/wallet'
 import { ExtendEthereum } from 'global'

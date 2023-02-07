@@ -1,4 +1,4 @@
-import { ChainId, Native, NativeCurrency } from '@pancakeswap/sdk'
+import { ChainId, Native, NativeCurrency } from '@tmyswap/sdk'
 import { useMemo } from 'react'
 import { useActiveChainId } from './useActiveChainId'
 

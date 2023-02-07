@@ -11,7 +11,7 @@ import {
   _9975,
   BigintIsh,
   MINIMUM_LIQUIDITY,
-} from '@pancakeswap/swap-sdk-core'
+} from '@tmyswap/swap-sdk-core'
 import { getCreate2Address } from '@ethersproject/address'
 import { keccak256, pack } from '@ethersproject/solidity'
 import JSBI from 'jsbi'

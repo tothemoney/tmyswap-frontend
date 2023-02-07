@@ -1,5 +1,5 @@
-import { Card, CardBody, Text, Flex, BlockIcon, LinkExternal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardBody, Text, Flex, BlockIcon, LinkExternal } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { NodeRound, BetPosition } from 'state/types'
 import useTheme from 'hooks/useTheme'
 import ReclaimPositionButton from '../ReclaimPositionButton'
@@ -38,7 +38,7 @@ const CanceledRoundCard: React.FC<React.PropsWithChildren<CanceledRoundCardProps
               {t('Round Cancelled')}
             </Text>
             {isRefundable && <ReclaimPositionButton epoch={epoch} onSuccess={handleSuccess} width="100%" my="8px" />}
-            <LinkExternal href="https://docs.pancakeswap.finance/products/prediction" external>
+            <LinkExternal href="https://docs.tmyswap.org/products/prediction" external>
               {t('Learn More')}
             </LinkExternal>
           </Flex>

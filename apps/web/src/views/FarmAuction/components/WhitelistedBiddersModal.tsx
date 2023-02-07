@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { Modal, Box, Text, Flex, Input, OpenNewIcon, Spinner, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Modal, Box, Text, Flex, Input, OpenNewIcon, Spinner, useMatchBreakpoints } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import useTheme from 'hooks/useTheme'
 import { FarmAuctionBidderConfig } from 'config/constants/types'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@tmyswap/utils/truncateHash'
 import useWhitelistedAddresses from '../hooks/useWhitelistedAddresses'
 
 interface WhitelistedBiddersModalProps {

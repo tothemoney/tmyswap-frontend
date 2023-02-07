@@ -1,5 +1,5 @@
-import { Percent } from '@pancakeswap/aptos-swap-sdk'
-import { SeverityErrorText } from '@pancakeswap/uikit'
+import { Percent } from '@tmyswap/aptos-swap-sdk'
+import { SeverityErrorText } from '@tmyswap/uikit'
 import { warningSeverity } from 'utils/exchange'
 import { ONE_BIPS } from 'config/constants/exchange'
 

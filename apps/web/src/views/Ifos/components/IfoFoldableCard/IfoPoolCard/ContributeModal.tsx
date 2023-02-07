@@ -1,7 +1,7 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { parseUnits } from '@ethersproject/units'
-import { useTranslation } from '@pancakeswap/localization'
-import { bscTokens } from '@pancakeswap/tokens'
+import { useTranslation } from '@tmyswap/localization'
+import { bscTokens } from '@tmyswap/tokens'
 import {
   BalanceInput,
   Box,
@@ -16,7 +16,7 @@ import {
   TooltipText,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import BigNumber from 'bignumber.js'
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
@@ -28,7 +28,7 @@ import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import { useERC20 } from 'hooks/useContract'
 import { useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { formatNumber, getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { formatNumber, getBalanceAmount } from '@tmyswap/utils/formatBalance'
 import { requiresApproval } from 'utils/requiresApproval'
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
 
@@ -257,7 +257,7 @@ const ContributeModal: React.FC<React.PropsWithChildren<Props>> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering"
+              href="https://docs.tmyswap.org/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

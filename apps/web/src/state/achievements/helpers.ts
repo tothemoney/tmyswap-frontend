@@ -1,6 +1,6 @@
 import { request, gql } from 'graphql-request'
 import { campaignMap } from 'config/constants/campaigns'
-import { TranslateFunction } from '@pancakeswap/localization'
+import { TranslateFunction } from '@tmyswap/localization'
 import { GRAPH_API_PROFILE } from 'config/constants/endpoints'
 import { Achievement } from 'state/types'
 import { getAchievementTitle, getAchievementDescription } from 'utils/achievements'

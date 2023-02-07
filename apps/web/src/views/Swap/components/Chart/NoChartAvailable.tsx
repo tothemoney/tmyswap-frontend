@@ -1,5 +1,5 @@
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 
 interface NoChartAvailableProps {
   token0Address: string

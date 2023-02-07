@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { AutoRenewIcon, Button, useToast } from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
@@ -7,7 +7,7 @@ import React from 'react'
 import { useAppDispatch } from 'state'
 import { fetchFarmUserDataAsync } from 'state/farmsV1'
 import { useFarmUser } from 'state/farmsV1/hooks'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { getFullDisplayBalance } from '@tmyswap/utils/formatBalance'
 import useUnstakeFarms from '../../../hook/V1/Farms/useUnstakeFarms'
 
 export interface UnstakeButtonProps {

@@ -1,4 +1,4 @@
-import { Token, getTokenComparator } from '@pancakeswap/aptos-swap-sdk'
+import { Token, getTokenComparator } from '@tmyswap/aptos-swap-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from 'hooks/Tokens'
 

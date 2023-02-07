@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 
 import { PairState, usePairs } from 'hooks/usePairs'
 import { APT, L0_USDC } from 'config/coins'
-import { Pair } from '@pancakeswap/aptos-swap-sdk'
+import { Pair } from '@tmyswap/aptos-swap-sdk'
 
 import splitTypeTag from '../../../utils/splitTypeTag'
 import getTokenByAddress from '../utils/getTokenByAddress'

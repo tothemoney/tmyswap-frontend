@@ -11,7 +11,7 @@ import {
   InfoIcon,
   useTooltip,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import styled from 'styled-components'
 import { useAccount } from 'wagmi'
 import { LotteryTicket, LotteryTicketClaimData } from 'config/constants/types'
@@ -19,7 +19,7 @@ import { fetchLottery } from 'state/lottery/helpers'
 import { getWinningTickets } from 'state/lottery/fetchUnclaimedUserRewards'
 import { fetchUserTicketsForOneRound } from 'state/lottery/getUserTicketsData'
 import { LotteryRound } from 'state/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import useTheme from 'hooks/useTheme'
 import orderBy from 'lodash/orderBy'
 import WinningNumbers from '../WinningNumbers'

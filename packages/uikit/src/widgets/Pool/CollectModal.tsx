@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { formatNumber } from "@pancakeswap/utils/formatBalance";
+import { useTranslation } from "@tmyswap/localization";
+import { formatNumber } from "@tmyswap/utils/formatBalance";
 import { useTheme } from "styled-components";
 import { Flex } from "../../components/Box";
 import { Heading } from "../../components/Heading";

@@ -15,12 +15,12 @@ import {
   ModalTitle,
   Spinner,
   Text,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import useTheme from 'hooks/useTheme'
 
 import { getBlockExploreLink } from 'utils'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@tmyswap/utils/truncateHash'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
 type ConfirmModalProps = {

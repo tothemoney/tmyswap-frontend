@@ -1,4 +1,4 @@
-import { WalletConfigV2 } from '@pancakeswap/ui-wallets'
+import { WalletConfigV2 } from '@tmyswap/ui-wallets'
 
 export enum ConnectorNames {
   Petra = 'petra',
@@ -71,17 +71,17 @@ export const wallets: WalletConfigV2<ConnectorNames>[] = [
   {
     id: 'trustWallet',
     title: 'Trust Wallet',
-    icon: 'https://pancakeswap.finance/images/wallets/trust.png',
+    icon: 'https://tmyswap.org/images/wallets/trust.png',
     get installed() {
       return typeof window !== 'undefined' && Boolean(window.aptos) && Boolean((window.aptos as any)?.isTrust)
     },
-    deepLink: 'https://link.trustwallet.com/open_url?coin_id=637&url=https://aptos.pancakeswap.finance/',
+    deepLink: 'https://link.trustwallet.com/open_url?coin_id=637&url=https://aptos.tmyswap.org/',
     connectorId: ConnectorNames.TrustWallet,
   },
   {
     id: 'safePal',
     title: 'SafePal',
-    icon: 'https://pancakeswap.finance/images/wallets/safepal.png',
+    icon: 'https://tmyswap.org/images/wallets/safepal.png',
     get installed() {
       return typeof window !== 'undefined' && Boolean(window.safePal) && Boolean((window.safePal as any)?.sfpPlatform)
     },

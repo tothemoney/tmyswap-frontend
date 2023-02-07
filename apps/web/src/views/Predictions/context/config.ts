@@ -2,7 +2,7 @@ import addresses from 'config/constants/contracts'
 
 import { GRAPH_API_PREDICTION_CAKE, GRAPH_API_PREDICTION_BNB } from 'config/constants/endpoints'
 import { getAddress } from 'utils/addressHelpers'
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@tmyswap/tokens'
 
 export default {
   BNB: {

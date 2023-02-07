@@ -1,5 +1,5 @@
-import { Box, Flex, InjectedModalProps, Modal, Button, Spinner } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, InjectedModalProps, Modal, Button, Spinner } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import useTheme from 'hooks/useTheme'
 import useGetVotingPower from '../hooks/useGetVotingPower'
 import DetailsView from './CastVoteModal/DetailsView'

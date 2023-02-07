@@ -1,8 +1,8 @@
 import { useCallback, useMemo } from 'react'
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@tmyswap/sdk'
 import { BigNumber } from 'bignumber.js'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 import useCatchTxError from 'hooks/useCatchTxError'
 import styled from 'styled-components'
@@ -21,9 +21,9 @@ import {
   useToast,
   FlexGap,
   Balance,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { getBalanceAmount } from '@tmyswap/utils/formatBalance'
 import { LightGreyCard } from 'components/Card'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useFarmCProxyAddress } from 'views/Farms/hooks/useFarmCProxyAddress'

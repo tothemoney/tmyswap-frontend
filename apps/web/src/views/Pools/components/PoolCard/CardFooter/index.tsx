@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, CardFooter, ExpandableLabel, HelpIcon, Pool } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { Flex, CardFooter, ExpandableLabel, HelpIcon, Pool } from '@tmyswap/uikit'
+import { Token } from '@tmyswap/sdk'
 import PoolStatsInfo from '../../PoolStatsInfo'
 import PoolTypeTag from '../../PoolTypeTag'
 

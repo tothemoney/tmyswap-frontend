@@ -1,5 +1,5 @@
-import { Text, Flex, useTooltip, TooltipText } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Flex, useTooltip, TooltipText } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { VaultKey } from 'state/types'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { secondsToDay } from 'utils/timeHelper'

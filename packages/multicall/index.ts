@@ -1,7 +1,7 @@
 import { Interface, Fragment } from '@ethersproject/abi'
 import { CallOverrides, Contract } from '@ethersproject/contracts'
 import { Provider } from '@ethersproject/providers'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tmyswap/sdk'
 
 import multicallAbi from './Multicall.json'
 

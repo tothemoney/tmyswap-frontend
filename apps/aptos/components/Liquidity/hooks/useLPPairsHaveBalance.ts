@@ -1,12 +1,12 @@
-import { Pair, PAIR_LP_TYPE_TAG, PAIR_RESERVE_TYPE_TAG } from '@pancakeswap/aptos-swap-sdk'
-import { useAccount, useAccountResources } from '@pancakeswap/awgmi'
+import { Pair, PAIR_LP_TYPE_TAG, PAIR_RESERVE_TYPE_TAG } from '@tmyswap/aptos-swap-sdk'
+import { useAccount, useAccountResources } from '@tmyswap/awgmi'
 import {
   CoinStoreResource,
   COIN_STORE_TYPE_PREFIX,
   createAccountResourceFilter,
   FetchAccountResourcesResult,
   unwrapTypeArgFromString,
-} from '@pancakeswap/awgmi/core'
+} from '@tmyswap/awgmi/core'
 import { PairState, usePairsFromAddresses } from 'hooks/usePairs'
 import { useMemo } from 'react'
 

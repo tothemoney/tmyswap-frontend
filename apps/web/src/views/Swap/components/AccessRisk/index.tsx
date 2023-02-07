@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { ERC20Token, Token } from '@pancakeswap/sdk'
+import { Trans, useTranslation } from '@tmyswap/localization'
+import { ERC20Token, Token } from '@tmyswap/sdk'
 import {
   Button,
   Dots,
@@ -12,7 +12,7 @@ import {
   Text,
   useTooltip,
   promotedGradient,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useState } from 'react'
 import { useUserTokenRisk } from 'state/user/hooks/useUserTokenRisk'
 import styled from 'styled-components'

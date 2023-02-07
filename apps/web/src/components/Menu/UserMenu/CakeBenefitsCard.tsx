@@ -11,10 +11,10 @@ import {
   Text,
   NextLinkFromReactRouter,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { VaultPosition } from 'utils/cakePool'
 import { FetchStatus } from 'config/constants/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import styled from 'styled-components'
 import useCakeBenefits from './hooks/useCakeBenefits'
 

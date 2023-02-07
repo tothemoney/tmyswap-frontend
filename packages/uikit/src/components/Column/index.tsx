@@ -1,4 +1,4 @@
-import { AtomBox, AtomBoxProps } from "@pancakeswap/ui";
+import { AtomBox, AtomBoxProps } from "@tmyswap/ui";
 
 export const Column = (props: AtomBoxProps) => (
   <AtomBox display="flex" flexDirection="column" justifyContent="flex-start" {...props} />

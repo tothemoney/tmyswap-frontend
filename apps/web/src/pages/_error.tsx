@@ -13,7 +13,7 @@
 
 import { captureUnderscoreErrorException } from '@sentry/nextjs'
 import NextErrorComponent, { ErrorProps } from 'next/error'
-import { NotFound } from '@pancakeswap/uikit'
+import { NotFound } from '@tmyswap/uikit'
 
 const CustomErrorComponent = (props: ErrorProps) => <NotFound statusCode={props.statusCode} />
 

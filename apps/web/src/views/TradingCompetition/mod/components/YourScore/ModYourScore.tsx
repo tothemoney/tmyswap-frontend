@@ -1,6 +1,6 @@
-import { Skeleton, Heading, Text } from '@pancakeswap/uikit'
+import { Skeleton, Heading, Text } from '@tmyswap/uikit'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import ScoreHeader from '../../../components/YourScore/ScoreHeader'
 import RibbonWithImage from '../../../components/RibbonWithImage'
 import { UserLeaderboardSharedInformation, CompetitionProps } from '../../../types'

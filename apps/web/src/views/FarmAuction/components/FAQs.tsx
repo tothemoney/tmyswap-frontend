@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Text, Heading, Card, CardHeader, CardBody, Flex, Link, Box } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Heading, Card, CardHeader, CardBody, Flex, Link, Box } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import { FORM_ADDRESS } from '../helpers'
 

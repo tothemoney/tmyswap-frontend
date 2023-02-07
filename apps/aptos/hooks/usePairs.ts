@@ -1,8 +1,8 @@
 /* eslint-disable camelcase */
 import { UseQueryResult } from '@tanstack/react-query'
-import { Currency, CurrencyAmount, Pair, SWAP_ADDRESS } from '@pancakeswap/aptos-swap-sdk'
-import { accountResourceQueryKey, useQueries } from '@pancakeswap/awgmi'
-import { fetchAccountResource } from '@pancakeswap/awgmi/core'
+import { Currency, CurrencyAmount, Pair, SWAP_ADDRESS } from '@tmyswap/aptos-swap-sdk'
+import { accountResourceQueryKey, useQueries } from '@tmyswap/awgmi'
+import { fetchAccountResource } from '@tmyswap/awgmi/core'
 import fromPairs from 'lodash/fromPairs'
 import { useMemo } from 'react'
 import { useCoins } from './Tokens'

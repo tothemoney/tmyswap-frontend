@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import styled from "styled-components";
 import { AutoColumn, ErrorIcon, Text, Flex, Button } from "../../components";
 

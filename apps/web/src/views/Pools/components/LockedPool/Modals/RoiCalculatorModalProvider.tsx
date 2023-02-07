@@ -1,5 +1,5 @@
 import React, { useState, createContext } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { usePool } from 'state/pools/hooks'
 import _toString from 'lodash/toString'
 

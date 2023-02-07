@@ -1,5 +1,5 @@
 /* eslint-disable no-await-in-loop, no-continue */
-import { Currency, CurrencyAmount, Pair, Price, Trade, TradeType } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Pair, Price, Trade, TradeType } from '@tmyswap/sdk'
 
 import { getBestTradeFromV2ExactIn } from './getBestTradeFromV2'
 import { getStableSwapFee, getStableSwapOutputAmount } from './onchain'

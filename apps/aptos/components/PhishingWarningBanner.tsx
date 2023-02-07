@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
-import { Text, Flex, Box, CloseIcon, IconButton } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Flex, Box, CloseIcon, IconButton } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { usePhishingBanner } from 'state/user'
 import { DOMAIN } from 'config'
-import { AtomBox } from '@pancakeswap/ui'
+import { AtomBox } from '@tmyswap/ui'
 
 const Container = styled(Flex)`
   overflow: hidden;
@@ -44,7 +44,7 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const [, hideBanner] = usePhishingBanner()
   const warningTextAsParts = useMemo(() => {
     const warningText = t("please make sure you're visiting %domain% - check the URL carefully.", { domain: DOMAIN })
-    return warningText.split(/(https:\/\/aptos.pancakeswap.finance)/g)
+    return warningText.split(/(https:\/\/aptos.tmyswap.org)/g)
   }, [t])
   const warningTextComponent = (
     <>

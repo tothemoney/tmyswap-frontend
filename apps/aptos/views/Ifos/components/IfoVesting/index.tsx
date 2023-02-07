@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, CardBody, CardHeader, Flex, Text, Image } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Box, Card, CardBody, CardHeader, Flex, Text, Image } from '@tmyswap/uikit'
 import { useMemo, useState, useCallback, useEffect } from 'react'
 import styled from 'styled-components'
 import Trans from 'components/Trans'

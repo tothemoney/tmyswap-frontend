@@ -1,8 +1,8 @@
 import BigNumber from "bignumber.js";
 
 import styled from "styled-components";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
-import { useTranslation } from "@pancakeswap/localization";
+import { BIG_ZERO } from "@tmyswap/utils/bigNumber";
+import { useTranslation } from "@tmyswap/localization";
 import { Flex, Text, Box } from "../../components";
 import { DeserializedPool } from "./types";
 

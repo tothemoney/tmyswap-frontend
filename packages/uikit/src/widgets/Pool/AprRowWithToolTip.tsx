@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Flex } from "../../components/Box";
 import { TooltipText } from "../../components/Text";
 import { useTooltip } from "../../hooks";

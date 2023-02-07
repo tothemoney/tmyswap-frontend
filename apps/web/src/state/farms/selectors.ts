@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { getBalanceAmount } from '@tmyswap/utils/formatBalance'
 import { createSelector } from '@reduxjs/toolkit'
-import { deserializeFarm, deserializeFarmUserData } from '@pancakeswap/farms'
+import { deserializeFarm, deserializeFarmUserData } from '@tmyswap/farms'
 import { State } from '../types'
 
 const selectCakeFarm = (state: State) => state.farms.data.find((f) => f.pid === 2)

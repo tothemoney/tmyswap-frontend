@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Call, createMulticall } from '@pancakeswap/multicall'
-import { ChainId, Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { Call, createMulticall } from '@tmyswap/multicall'
+import { ChainId, Currency, CurrencyAmount } from '@tmyswap/sdk'
 
 import { wrappedCurrencyAmount } from '../utils/currency'
 import { getOutputToken } from '../utils/pair'

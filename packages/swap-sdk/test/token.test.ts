@@ -1,4 +1,4 @@
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { Token } from '@tmyswap/swap-sdk-core'
 import { ChainId } from '../src/constants'
 
 describe('Token', () => {

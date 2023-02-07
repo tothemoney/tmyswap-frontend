@@ -1,5 +1,5 @@
-import { Text, Flex, HelpIcon, useTooltip } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Flex, HelpIcon, useTooltip } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 
 const CannotBidMessage: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

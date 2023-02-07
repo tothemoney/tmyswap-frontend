@@ -1,11 +1,11 @@
 import { useRef, useState, useEffect, Dispatch, SetStateAction, useMemo } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { createChart, IChartApi, UTCTimestamp } from 'lightweight-charts'
 import { format } from 'date-fns'
 import { LineChartLoader } from 'components/ChartLoaders'
 import useTheme from 'hooks/useTheme'
 import { PairDataTimeWindowEnum } from 'state/swap/types'
-import { lightColors, darkColors } from '@pancakeswap/ui/tokens/colors'
+import { lightColors, darkColors } from '@tmyswap/ui/tokens/colors'
 
 export type SwapLineChartNewProps = {
   data: any[]

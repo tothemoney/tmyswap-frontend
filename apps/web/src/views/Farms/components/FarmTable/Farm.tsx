@@ -1,5 +1,5 @@
 import { useFarmUser } from 'state/farms/hooks'
-import { Farm as FarmUI, FarmTableFarmTokenInfoProps } from '@pancakeswap/uikit'
+import { Farm as FarmUI, FarmTableFarmTokenInfoProps } from '@tmyswap/uikit'
 import { TokenPairImage } from 'components/TokenImage'
 
 const { FarmTokenInfo } = FarmUI.FarmTable

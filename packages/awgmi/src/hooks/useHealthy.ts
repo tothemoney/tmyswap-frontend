@@ -1,4 +1,4 @@
-import { fetchHealthy, FetchHealthyArgs } from '@pancakeswap/awgmi/core'
+import { fetchHealthy, FetchHealthyArgs } from '@tmyswap/awgmi/core'
 
 import { QueryConfig, QueryFunctionArgs } from '../types'
 import { useNetwork } from './useNetwork'

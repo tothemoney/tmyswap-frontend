@@ -1,6 +1,6 @@
-import { getFarmConfig } from '@pancakeswap/farms/constants'
-import { createFarmFetcher, SerializedFarm, SerializedFarmsState } from '@pancakeswap/farms'
-import { ChainId } from '@pancakeswap/sdk'
+import { getFarmConfig } from '@tmyswap/farms/constants'
+import { createFarmFetcher, SerializedFarm, SerializedFarmsState } from '@tmyswap/farms'
+import { ChainId } from '@tmyswap/sdk'
 import { createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit'
 import type {
   UnknownAsyncThunkFulfilledAction,
@@ -15,7 +15,7 @@ import stringify from 'fast-json-stable-stringify'
 import keyBy from 'lodash/keyBy'
 import type { AppState } from 'state'
 import { getMasterChefAddress } from 'utils/addressHelpers'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { getBalanceAmount } from '@tmyswap/utils/formatBalance'
 import multicall, { multicallv2 } from 'utils/multicall'
 import { chains } from 'utils/wagmi'
 import splitProxyFarms from 'views/Farms/components/YieldBooster/helpers/splitProxyFarms'

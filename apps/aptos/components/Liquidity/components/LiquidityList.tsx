@@ -1,4 +1,4 @@
-import { Liquidity as LiquidityUI } from '@pancakeswap/uikit'
+import { Liquidity as LiquidityUI } from '@tmyswap/uikit'
 import useLPPairsHaveBalance from 'components/Liquidity/hooks/useLPPairsHaveBalance'
 import withLPValues from '../hocs/withLPValues'
 import { FullPositionCard } from './PositionCard'

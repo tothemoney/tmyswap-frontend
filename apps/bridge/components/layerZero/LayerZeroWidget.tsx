@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Box, PancakeTheme } from '@pancakeswap/uikit'
+import { Box, PancakeTheme } from '@tmyswap/uikit'
 import { darkTheme, lightTheme } from 'components/layerZero/theme'
 
 declare global {

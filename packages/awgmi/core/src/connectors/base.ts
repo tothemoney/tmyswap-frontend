@@ -6,7 +6,7 @@
 // - `signTransaction(transaction)`: signs the given transaction and returns it to be submitted by the dApp
 // - `disconnect()`: Removes connection between dApp and wallet. Useful when the user wants to remove the connection.
 
-import { equalsIgnoreCase } from '@pancakeswap/utils/equalsIgnoreCase'
+import { equalsIgnoreCase } from '@tmyswap/utils/equalsIgnoreCase'
 import { Types } from 'aptos'
 import EventEmitter from 'eventemitter3'
 import { Chain, defaultChains } from '../chain'

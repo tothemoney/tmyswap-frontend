@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { useCallback } from "react";
 import { Text } from "../Text";
 import { ChevronDownIcon, ChevronUpIcon } from "../Svg";

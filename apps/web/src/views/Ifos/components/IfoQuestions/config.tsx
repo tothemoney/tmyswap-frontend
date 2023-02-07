@@ -1,6 +1,6 @@
 import Trans from 'components/Trans'
 import styled from 'styled-components'
-import { Link } from '@pancakeswap/uikit'
+import { Link } from '@tmyswap/uikit'
 
 const InlineLink = styled(Link)`
   display: inline;
@@ -22,7 +22,7 @@ const config = [
       </Trans>,
       <>
         <Trans>Learn more about iCAKE</Trans>
-        <InlineLink ml="4px" external href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering/icake">
+        <InlineLink ml="4px" external href="https://docs.tmyswap.org/products/ifo-initial-farm-offering/icake">
           <Trans>here</Trans>
         </InlineLink>
       </>,

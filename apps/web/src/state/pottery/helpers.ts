@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
 import {
   SerializedPotteryUserData,
   DeserializedPotteryUserData,

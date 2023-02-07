@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { TradeWithStableSwap } from '@pancakeswap/smart-router/evm'
-import { AutoRenewIcon, Button, QuestionHelper, Text, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Currency, CurrencyAmount, TradeType } from '@tmyswap/sdk'
+import { TradeWithStableSwap } from '@tmyswap/smart-router/evm'
+import { AutoRenewIcon, Button, QuestionHelper, Text, Link } from '@tmyswap/uikit'
 import { AutoColumn } from 'components/Layout/Column'
 import { AutoRow, RowBetween, RowFixed } from 'components/Layout/Row'
 import { BUYBACK_FEE, LP_HOLDERS_FEE, TOTAL_FEE, TREASURY_FEE } from 'config/constants/info'
@@ -121,7 +121,7 @@ export default function SwapModalFooter({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/stableswap#stableswap-fees"
+                      href="https://docs.tmyswap.org/products/stableswap#stableswap-fees"
                     >
                       {t('here.')}
                     </Link>

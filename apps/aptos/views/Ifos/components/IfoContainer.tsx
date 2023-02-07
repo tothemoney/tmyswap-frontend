@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Container, LinkExternal } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Container, LinkExternal } from '@tmyswap/uikit'
 import IfoLayout, { IfoLayoutWrapper } from './IfoLayout'
 import IfoPoolVaultCard from './IfoPoolVaultCard'
 
@@ -21,7 +21,7 @@ const IfoContainer: React.FC<React.PropsWithChildren<TypeProps>> = ({ ifoSection
       </Container>
       <Container>
         <LinkExternal
-          href="https://docs.pancakeswap.finance/contact-us/business-partnerships#ifos-token-sales"
+          href="https://docs.tmyswap.org/contact-us/business-partnerships#ifos-token-sales"
           mx="auto"
           mt="16px"
         >

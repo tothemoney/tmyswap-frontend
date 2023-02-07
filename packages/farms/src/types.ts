@@ -1,6 +1,6 @@
-import { SerializedWrappedToken } from '@pancakeswap/token-lists'
+import { SerializedWrappedToken } from '@tmyswap/token-lists'
 import BigNumber from 'bignumber.js'
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { Token } from '@tmyswap/swap-sdk-core'
 
 export type FarmsDynamicDataResult = {
   tokenAmountTotal: string

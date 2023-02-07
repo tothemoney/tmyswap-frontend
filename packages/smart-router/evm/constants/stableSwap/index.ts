@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tmyswap/sdk'
 
 import { StableSwapPool } from '../../types/pool'
 import { poolMap } from './pools'

@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import { RootObject as IFOMetadata } from 'views/Ifos/generated/IFOMetadata'
 import { RootObject as IFOPool } from 'views/Ifos/generated/IFOPool'

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box, Text, Flex } from '@pancakeswap/uikit'
+import { Box, Text, Flex } from '@tmyswap/uikit'
 import { ArticleDataType } from 'utils/transformArticle'
 import NextLink from 'next/link'
 import { StyledLineClamp } from 'components/StyledLineClamp'

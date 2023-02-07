@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, useMemo } from 'react'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
-import { ChainId } from '@pancakeswap/sdk'
+import { useMatchBreakpoints } from '@tmyswap/uikit'
+import { ChainId } from '@tmyswap/sdk'
 import { useExchangeChartManager } from 'state/user/hooks'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

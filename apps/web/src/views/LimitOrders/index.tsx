@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent, Token, Trade, TradeType } from '@pancakeswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { Currency, CurrencyAmount, Percent, Token, Trade, TradeType } from '@tmyswap/sdk'
 import {
   BottomDrawer,
   Box,
@@ -9,8 +9,8 @@ import {
   Swap as SwapUI,
   useMatchBreakpoints,
   useModal,
-} from '@pancakeswap/uikit'
-import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
+} from '@tmyswap/uikit'
+import replaceBrowserHistory from '@tmyswap/utils/replaceBrowserHistory'
 import { AppBody } from 'components/App'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'

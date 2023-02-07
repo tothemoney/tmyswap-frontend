@@ -1,5 +1,5 @@
 import { SmartChef } from 'contracts/smartchef'
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+import { getFullDecimalMultiplier } from '@tmyswap/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
 import useSimulationAndSendTransaction from 'hooks/useSimulationAndSendTransaction'
 import { useCallback } from 'react'

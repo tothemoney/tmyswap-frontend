@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@tmyswap/hooks'
 import { AdvancedSwapDetails, AdvancedSwapDetailsProps } from './AdvancedSwapDetails'
 
 const AdvancedDetailsFooter = styled.div<{ show: boolean }>`

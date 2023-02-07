@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { formatAmount } from "@pancakeswap/utils/formatInfoNumbers";
+import { useTranslation } from "@tmyswap/localization";
+import { formatAmount } from "@tmyswap/utils/formatInfoNumbers";
 import { Text, TooltipText } from "../../components/Text";
 import { useTooltip } from "../../hooks/useTooltip";
 import { RowBetween } from "../../components/Row";

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import NextLink from 'next/link'
-import { Flex, Skeleton, UserMenuItem } from '@pancakeswap/uikit'
+import { Flex, Skeleton, UserMenuItem } from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 
 interface ProfileUserMenuItemProps {
   isLoading: boolean

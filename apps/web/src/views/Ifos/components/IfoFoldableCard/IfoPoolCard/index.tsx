@@ -1,4 +1,4 @@
-import { ContextApi, useTranslation } from '@pancakeswap/localization'
+import { ContextApi, useTranslation } from '@tmyswap/localization'
 import {
   Box,
   Card,
@@ -10,7 +10,7 @@ import {
   useTooltip,
   ExpandableLabel,
   CardFooter,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { useMemo, useState } from 'react'

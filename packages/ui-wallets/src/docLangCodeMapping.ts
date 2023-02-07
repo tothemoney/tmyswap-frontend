@@ -11,5 +11,5 @@ const docLangCodeMapping: Record<string, string> = {
 
 export const getDocLink = (code: string) =>
   docLangCodeMapping[code]
-    ? `https://docs.pancakeswap.finance/v/${docLangCodeMapping[code]}/get-started/connection-guide`
-    : `https://docs.pancakeswap.finance/get-started/connection-guide`
+    ? `https://docs.tmyswap.org/v/${docLangCodeMapping[code]}/get-started/connection-guide`
+    : `https://docs.tmyswap.org/get-started/connection-guide`

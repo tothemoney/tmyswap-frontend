@@ -1,6 +1,6 @@
 import { useAccount } from 'wagmi'
 import { getAchievements } from 'state/achievements/helpers'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { FetchStatus } from 'config/constants/types'
 import useSWR, { KeyedMutator } from 'swr'
 import { localStorageMiddleware } from 'hooks/useSWRContract'

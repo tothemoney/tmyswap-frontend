@@ -1,9 +1,9 @@
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { Pool } from '@pancakeswap/uikit'
+import { Pool } from '@tmyswap/uikit'
 import { vaultPoolConfig } from 'config/constants/pools'
 import { useCurrentBlock } from 'state/block/hooks'
 import { getPoolBlockInfo } from 'views/Pools/helpers'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@tmyswap/sdk'
 
 const withShownApr = (AprComp) => (props) => {
   const { account } = useActiveWeb3React()

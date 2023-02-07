@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useProfile } from 'state/profile/hooks'
-import { Flex, Box, useMatchBreakpoints, PageSection } from '@pancakeswap/uikit'
+import { Flex, Box, useMatchBreakpoints, PageSection } from '@tmyswap/uikit'
 import styled from 'styled-components'
 import { useTradingCompetitionContractEaster } from 'hooks/useContract'
 import { API_PROFILE } from 'config/constants/endpoints'
@@ -15,7 +15,7 @@ import {
   REGISTRATION,
 } from 'config/constants/trading-competition/phases'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tmyswap/sdk'
 import { DARKBG, MIDBLUEBG, MIDBLUEBG_DARK } from './pageSectionStyles'
 import EasterStormBunny from './pngs/easter-storm.png'
 import Countdown from './components/Countdown'

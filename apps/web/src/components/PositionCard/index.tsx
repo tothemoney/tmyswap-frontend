@@ -1,5 +1,5 @@
 import { useState, useMemo, useContext } from 'react'
-import { Currency, CurrencyAmount, JSBI, Pair, Percent } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, JSBI, Pair, Percent } from '@tmyswap/sdk'
 import {
   Button,
   Text,
@@ -14,9 +14,9 @@ import {
   useTooltip,
   NextLinkFromReactRouter,
   Link,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import useTotalSupply from 'hooks/useTotalSupply'
 import useBUSDPrice from 'hooks/useBUSDPrice'
 import { multiplyPriceByAmount } from 'utils/prices'
@@ -264,7 +264,7 @@ function MinimalPositionCardView({
                   style={{ display: 'inline' }}
                   ml="4px"
                   external
-                  href="https://docs.pancakeswap.finance/products/stableswap#stableswap-fees"
+                  href="https://docs.tmyswap.org/products/stableswap#stableswap-fees"
                 >
                   {t('here.')}
                 </Link>

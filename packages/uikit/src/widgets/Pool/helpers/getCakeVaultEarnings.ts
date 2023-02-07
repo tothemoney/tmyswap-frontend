@@ -1,6 +1,6 @@
 import BigNumber from "bignumber.js";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
-import { getBalanceNumber, getFullDisplayBalance, getDecimalAmount } from "@pancakeswap/utils/formatBalance";
+import { BIG_ZERO } from "@tmyswap/utils/bigNumber";
+import { getBalanceNumber, getFullDisplayBalance, getDecimalAmount } from "@tmyswap/utils/formatBalance";
 
 // min deposit and withdraw amount
 export const MIN_LOCK_AMOUNT = new BigNumber(10000000000000);

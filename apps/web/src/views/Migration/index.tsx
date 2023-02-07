@@ -1,14 +1,14 @@
 import React, { memo, useState, useRef, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import { useAccount } from 'wagmi'
-import { Heading, Text, Button, ArrowForwardIcon, Link, PageHeader, Pool } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Heading, Text, Button, ArrowForwardIcon, Link, PageHeader, Pool } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { usePollFarmsV1WithUserData } from 'state/farmsV1/hooks'
 import { VaultKey } from 'state/types'
 import { useFetchUserPools } from 'views/Migration/hook/V1/Pool/useFetchUserPools'
 import { useFetchPublicPoolsData } from 'views/Migration/hook/V1/Pool/useFetchPublicPoolsData'
 import Page from 'components/Layout/Page'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@tmyswap/sdk'
 import ProgressSteps, { Step, ProgressStepsType } from './components/ProgressSteps'
 import MigrationSticky from './components/MigrationSticky'
 import OldPool from './components/MigrationStep1/OldPool'
@@ -75,7 +75,7 @@ const MigrationPage: React.FC<React.PropsWithChildren> = () => {
         <Heading scale="lg" color="text">
           {t('Migrate your stakings to the new MasterChef contract.')}
         </Heading>
-        <Link href="https://docs.pancakeswap.finance/code/migration/migrate-your-stakings" external>
+        <Link href="https://docs.tmyswap.org/code/migration/migrate-your-stakings" external>
           <Button p="0" variant="text">
             <Text color="primary" bold fontSize="16px" mr="4px">
               {t('Learn more')}

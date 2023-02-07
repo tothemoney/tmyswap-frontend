@@ -1,6 +1,6 @@
-import { Button, ButtonProps } from '@pancakeswap/uikit'
-import { WalletModalV2 } from '@pancakeswap/ui-wallets'
-import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Button, ButtonProps } from '@tmyswap/uikit'
+import { WalletModalV2 } from '@tmyswap/ui-wallets'
+import { Trans, useTranslation } from '@tmyswap/localization'
 import { useState } from 'react'
 import { useAuth } from 'hooks/useAuth'
 import { wallets } from 'config/wallets'
@@ -21,7 +21,7 @@ export const ConnectWalletButton = ({ children, ...props }: ButtonProps) => {
       </Button>
       <WalletModalV2
         docText={t('Learn How to Create and Connect')}
-        docLink="https://docs.pancakeswap.finance/get-started-aptos/wallet-guide"
+        docLink="https://docs.tmyswap.org/get-started-aptos/wallet-guide"
         isOpen={open}
         wallets={wallets}
         login={login}

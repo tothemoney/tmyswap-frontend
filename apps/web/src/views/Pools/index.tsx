@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 import { useAccount } from 'wagmi'
-import { Heading, Flex, Image, Text, Link, FlexLayout, PageHeader, Loading, Pool, ViewMode } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Heading, Flex, Image, Text, Link, FlexLayout, PageHeader, Loading, Pool, ViewMode } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { usePoolsPageFetch, usePoolsWithVault } from 'state/pools/hooks'
 import Page from 'components/Layout/Page'
 import ConnectWalletButton from 'components/ConnectWalletButton'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@tmyswap/sdk'
 import { TokenPairImage } from 'components/TokenImage'
 
 import CardActions from './components/PoolCard/CardActions'

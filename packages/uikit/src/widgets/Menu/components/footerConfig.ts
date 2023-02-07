@@ -1,4 +1,4 @@
-import { ContextApi } from "@pancakeswap/localization";
+import { ContextApi } from "@tmyswap/localization";
 import { FooterLinkType } from "../../../components/Footer/types";
 
 export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
@@ -7,12 +7,12 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t("Contact"),
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.tmyswap.org/contact-us",
         isHighlighted: true,
       },
       {
         label: t("Brand"),
-        href: "https://docs.pancakeswap.finance/brand",
+        href: "https://docs.tmyswap.org/brand",
       },
       {
         label: t("Blog"),
@@ -20,11 +20,11 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
       },
       {
         label: t("Community"),
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://docs.tmyswap.org/contact-us/telegram",
       },
       {
         label: t("Litepaper"),
-        href: "https://v2litepaper.pancakeswap.finance/",
+        href: "https://v2litepaper.tmyswap.org/",
       },
     ],
   },
@@ -33,15 +33,15 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t("Customer Support"),
-        href: "https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "https://docs.tmyswap.org/contact-us/customer-support",
       },
       {
         label: t("Troubleshooting"),
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://docs.tmyswap.org/help/troubleshooting",
       },
       {
         label: t("Guides"),
-        href: "https://docs.pancakeswap.finance/get-started",
+        href: "https://docs.tmyswap.org/get-started",
       },
     ],
   },
@@ -50,23 +50,23 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/tothemoney",
       },
       {
         label: t("Documentation"),
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.tmyswap.org",
       },
       {
         label: t("Bug Bounty"),
-        href: "https://docs.pancakeswap.finance/code/bug-bounty",
+        href: "https://docs.tmyswap.org/code/bug-bounty",
       },
       {
         label: t("Audits"),
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.tmyswap.org/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
       },
       {
         label: t("Careers"),
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "https://docs.tmyswap.org/hiring/become-a-chef",
       },
     ],
   },

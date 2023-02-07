@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { useTableItem, useTableItems, type PayloadTableItem } from '@pancakeswap/awgmi'
+import { useTableItem, useTableItems, type PayloadTableItem } from '@tmyswap/awgmi'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { IFO_RESOURCE_ACCOUNT_TYPE_VESTING_METADATA } from 'views/Ifos/constants'
 import { RootObject as VestingSchedule } from 'views/Ifos/generated/VestingSchedule'

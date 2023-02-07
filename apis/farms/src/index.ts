@@ -12,7 +12,7 @@
 
 import { Router } from 'itty-router'
 import { error, json, missing } from 'itty-router-extras'
-import { wrapCorsHeader, handleCors } from '@pancakeswap/worker-utils'
+import { wrapCorsHeader, handleCors } from '@tmyswap/worker-utils'
 import { fetchCakePrice, saveFarms, saveLPsAPR } from './handler'
 import { farmFetcher, requireChainId } from './helper'
 import { FarmKV } from './kv'
@@ -20,7 +20,7 @@ import { FarmKV } from './kv'
 const router = Router()
 
 const allowedOrigin =
-  /^(?:[^\w](pancake\.run)|(localhost:3000)|(localhost:3002)|(pancakeswap.finance)|(pancakeswap.com))$/
+  /^(?:[^\w](pancake\.run)|(localhost:3000)|(localhost:3002)|(tmyswap.org)|(pancakeswap.com))$/
 
 router.get('/price/cake', async (_, event) => {
   const cache = caches.default

@@ -1,6 +1,6 @@
-import { Button, Card, CardBody, CardHeader, Heading } from '@pancakeswap/uikit'
+import { Button, Card, CardBody, CardHeader, Heading } from '@tmyswap/uikit'
 import uniqueId from 'lodash/uniqueId'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import Choice from './Choice'
 
 export interface ChoiceIdValue {

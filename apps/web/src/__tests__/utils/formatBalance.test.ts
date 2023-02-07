@@ -1,5 +1,5 @@
 import { BigNumber, FixedNumber } from '@ethersproject/bignumber'
-import { formatBigNumber, formatBigNumberToFixed, formatFixedNumber } from '@pancakeswap/utils/formatBalance'
+import { formatBigNumber, formatBigNumberToFixed, formatFixedNumber } from '@tmyswap/utils/formatBalance'
 
 describe('formatBigNumber', () => {
   it.each([

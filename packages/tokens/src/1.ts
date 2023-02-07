@@ -1,5 +1,5 @@
-import { ChainId, WETH9, ERC20Token } from '@pancakeswap/sdk'
-import { USDC, USDT, WBTC_ETH } from '@pancakeswap/tokens'
+import { ChainId, WETH9, ERC20Token } from '@tmyswap/sdk'
+import { USDC, USDT, WBTC_ETH } from '@tmyswap/tokens'
 
 export const ethereumTokens = {
   weth: WETH9[ChainId.ETHEREUM],

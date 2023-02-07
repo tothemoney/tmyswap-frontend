@@ -1,4 +1,4 @@
-import { ChainId, ERC20Token, WBNB } from '@pancakeswap/sdk'
+import { ChainId, ERC20Token, WBNB } from '@tmyswap/sdk'
 import { BUSD_TESTNET, CAKE_TESTNET } from './common'
 
 export const bscTestnetTokens = {
@@ -11,7 +11,7 @@ export const bscTestnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://tmyswap.org/',
   ),
   bake: new ERC20Token(
     ChainId.BSC_TESTNET,

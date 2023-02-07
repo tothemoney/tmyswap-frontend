@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, Flex, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Card, Flex, Heading } from '@tmyswap/uikit'
 import Page from 'components/Layout/Page'
 import { useMemo } from 'react'
 import {

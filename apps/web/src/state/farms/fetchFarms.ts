@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
 import { SerializedFarmConfig } from 'config/constants/types'
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
-import { BIG_TWO, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { SerializedFarm } from '@pancakeswap/farms'
+import { getFullDecimalMultiplier } from '@tmyswap/utils/getFullDecimalMultiplier'
+import { BIG_TWO, BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { SerializedFarm } from '@tmyswap/farms'
 import { fetchMasterChefData } from './fetchMasterChefData'
 import { fetchPublicFarmsData } from './fetchPublicFarmData'
 

@@ -1,7 +1,7 @@
-import { CurrencyAmount, Token, Percent } from '@pancakeswap/aptos-swap-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { CurrencyAmount, Token, Percent } from '@tmyswap/aptos-swap-sdk'
+import { useTranslation } from '@tmyswap/localization'
 
-import { Liquidity as LiquidityUI, Column, AddIcon, CardBody, AutoColumn, Button } from '@pancakeswap/uikit'
+import { Liquidity as LiquidityUI, Column, AddIcon, CardBody, AutoColumn, Button } from '@tmyswap/uikit'
 import { CurrencyInputPanel } from 'components/CurrencyInputPanel'
 import AddLiquidityButton from 'components/Liquidity/components/AddLiquidityButton'
 import { PairState } from 'hooks/usePairs'

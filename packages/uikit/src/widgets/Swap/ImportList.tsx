@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { useTheme } from "@pancakeswap/hooks";
+import { useTranslation } from "@tmyswap/localization";
+import { useTheme } from "@tmyswap/hooks";
 import { useState } from "react";
 import styled from "styled-components";
 import { AutoColumn, Flex, Link, Text, Checkbox, Button, Message, Box, RowBetween, RowFixed } from "../../components";

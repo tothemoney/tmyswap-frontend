@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@tmyswap/sdk",
   "license": "MIT",
   "version": "3.1.4",
   "description": "🛠 An SDK for building applications on top of Pancakeswap.",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/tothemoney/pancake-frontend.git",
     "directory": "packages/swap-sdk"
   },
   "keywords": [
@@ -26,7 +26,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/swap-sdk-core": "*",
+    "@tmyswap/swap-sdk-core": "*",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",

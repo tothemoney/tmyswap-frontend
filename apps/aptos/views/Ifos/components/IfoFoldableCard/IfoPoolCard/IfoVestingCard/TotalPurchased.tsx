@@ -1,10 +1,10 @@
-import { Flex, Box, Text } from '@pancakeswap/uikit'
+import { Flex, Box, Text } from '@tmyswap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { TokenImage } from 'components/TokenImage'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import { useTranslation } from '@pancakeswap/localization'
+import { getFullDisplayBalance } from '@tmyswap/utils/formatBalance'
+import { useTranslation } from '@tmyswap/localization'
 import BigNumber from 'bignumber.js'
-import { Currency } from '@pancakeswap/aptos-swap-sdk'
+import { Currency } from '@tmyswap/aptos-swap-sdk'
 
 interface TotalPurchasedProps {
   token: Currency

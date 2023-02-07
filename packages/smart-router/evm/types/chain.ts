@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@tmyswap/sdk'
 
 // a list of tokens by chain
 export type ChainMap<T> = {

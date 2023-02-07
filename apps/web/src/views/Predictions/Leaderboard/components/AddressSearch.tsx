@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { useModal } from '@pancakeswap/uikit'
+import { useModal } from '@tmyswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { fetchAddressResult, setSelectedAddress } from 'state/predictions'
 import AddressInputSelect from 'components/AddressInputSelect'

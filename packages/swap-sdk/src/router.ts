@@ -1,4 +1,4 @@
-import { TradeType, Token, CurrencyAmount, Currency, Percent } from '@pancakeswap/swap-sdk-core'
+import { TradeType, Token, CurrencyAmount, Currency, Percent } from '@tmyswap/swap-sdk-core'
 import { Trade } from './entities'
 import { validateAndParseAddress } from './utils'
 import invariant from 'tiny-invariant'

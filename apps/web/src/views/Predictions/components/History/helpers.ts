@@ -1,5 +1,5 @@
 import { Bet, BetPosition } from 'state/types'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { formatNumber } from '@tmyswap/utils/formatBalance'
 
 export const formatUsd = (usd: number, displayedDecimals: number) => {
   return `$${formatNumber(usd || 0, displayedDecimals, displayedDecimals)}`

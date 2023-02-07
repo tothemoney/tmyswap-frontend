@@ -10,9 +10,9 @@ import {
   Heading,
   Checkbox,
   Box,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { useUserPredictionChartDisclaimerShow } from 'state/user/hooks'
 
 const Ul = styled.ul`
@@ -57,7 +57,7 @@ const ChartDisclaimer: React.FC<React.PropsWithChildren<InjectedModalProps>> = (
           {t("Only the price from Chainlink (shown on the cards) determines the round's result.")}
         </Text>
         <LinkExternal
-          href="https://docs.pancakeswap.finance/products/prediction/prediction-faq#what-are-you-using-for-your-price-feed"
+          href="https://docs.tmyswap.org/products/prediction/prediction-faq#what-are-you-using-for-your-price-feed"
           external
           mb="24px"
         >

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { Card, CardBody, Heading, ArrowBackIcon, IconButton } from '@pancakeswap/uikit'
+import { Card, CardBody, Heading, ArrowBackIcon, IconButton } from '@tmyswap/uikit'
 import { useRouter } from 'next/router'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { PredictionSupportedSymbol } from 'state/types'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
 

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import BigNumber from 'bignumber.js'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { Flex, Text } from '@tmyswap/uikit'
 import styled from 'styled-components'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { useTranslation } from '@pancakeswap/localization'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { useTranslation } from '@tmyswap/localization'
 import { LotteryRound } from 'state/types'
 import RewardBracketDetail from './RewardBracketDetail'
 

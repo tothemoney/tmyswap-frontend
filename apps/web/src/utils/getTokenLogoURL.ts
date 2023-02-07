@@ -1,6 +1,6 @@
 import { getAddress } from '@ethersproject/address'
 import memoize from 'lodash/memoize'
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@tmyswap/sdk'
 
 const mapping = {
   [ChainId.BSC]: 'smartchain',

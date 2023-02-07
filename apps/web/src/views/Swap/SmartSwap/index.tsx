@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, NATIVE, Percent } from '@pancakeswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { Currency, CurrencyAmount, NATIVE, Percent } from '@tmyswap/sdk'
 import {
   ArrowDownIcon,
   Box,
@@ -12,7 +12,7 @@ import {
   Swap as SwapUI,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import UnsupportedCurrencyFooter from 'components/UnsupportedCurrencyFooter'
 import { useIsTransactionUnsupported } from 'hooks/Trades'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -22,7 +22,7 @@ import { useStableSwapByDefault } from 'state/user/smartRouter'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 import AccessRisk from 'views/Swap/components/AccessRisk'
 
-import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
+import replaceBrowserHistory from '@tmyswap/utils/replaceBrowserHistory'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
 import { AutoColumn } from 'components/Layout/Column'
 import { AutoRow } from 'components/Layout/Row'

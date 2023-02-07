@@ -1,8 +1,8 @@
 # 🥞 Pancake Frontend
 
 <p align="center">
-  <a href="https://pancakeswap.finance">
-      <img src="https://pancakeswap.finance/logo.png" height="128">
+  <a href="https://tmyswap.org">
+      <img src="https://tmyswap.org/logo.png" height="128">
   </a>
 </p>
 

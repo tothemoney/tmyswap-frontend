@@ -8,12 +8,12 @@ import {
   Heading,
   Acknowledgement,
   useModal,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import _noop from 'lodash/noop'
 import { useCallback, useState, useEffect } from 'react'
 
-import { Currency } from '@pancakeswap/aptos-swap-sdk'
+import { Currency } from '@tmyswap/aptos-swap-sdk'
 import currencyId from 'utils/currencyId'
 import TOKEN_WARNINGS from './config'
 

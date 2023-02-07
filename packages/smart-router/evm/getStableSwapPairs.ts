@@ -1,5 +1,5 @@
-import { ChainId, CurrencyAmount } from '@pancakeswap/sdk'
-import { deserializeToken } from '@pancakeswap/token-lists'
+import { ChainId, CurrencyAmount } from '@tmyswap/sdk'
+import { deserializeToken } from '@tmyswap/token-lists'
 
 import { StableSwapPair } from './types'
 import { createStableSwapPair } from './stableSwap'

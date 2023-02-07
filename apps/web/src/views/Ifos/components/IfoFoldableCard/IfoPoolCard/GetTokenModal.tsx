@@ -1,6 +1,6 @@
-import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon, useMatchBreakpoints } from '@tmyswap/uikit'
+import { Token } from '@tmyswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
 
 interface Props {
   currency: Token

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair as V2Pair, Percent, Price, TradeType } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Pair as V2Pair, Percent, Price, TradeType } from '@tmyswap/sdk'
 
 import { RouteType } from './bestTrade'
 import { BasePair } from './pair'

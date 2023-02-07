@@ -1,5 +1,5 @@
 import { createReducer } from '@reduxjs/toolkit'
-import { SerializedWrappedToken } from '@pancakeswap/token-lists'
+import { SerializedWrappedToken } from '@tmyswap/token-lists'
 import omitBy from 'lodash/omitBy'
 import { DEFAULT_DEADLINE_FROM_NOW, INITIAL_ALLOWED_SLIPPAGE } from '../../config/constants'
 import { updateVersion } from '../global/actions'

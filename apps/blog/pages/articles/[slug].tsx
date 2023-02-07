@@ -1,6 +1,6 @@
 import { SWRConfig } from 'swr'
 import { useRouter } from 'next/router'
-import { NotFound, Box } from '@pancakeswap/uikit'
+import { NotFound, Box } from '@tmyswap/uikit'
 import ArticleInfo from 'components/Article/SingleArticle/ArticleInfo'
 import HowItWork from 'components/Article/SingleArticle/HowItWork'
 import SimilarArticles from 'components/Article/SingleArticle/SimilarArticles'

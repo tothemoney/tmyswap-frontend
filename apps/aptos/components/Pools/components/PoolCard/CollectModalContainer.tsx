@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Pool, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Pool, useToast } from '@tmyswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError, { TxResponse } from 'hooks/useCatchTxError'
 

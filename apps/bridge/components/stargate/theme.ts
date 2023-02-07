@@ -3,7 +3,7 @@ import { alpha } from '@material-ui/core/styles/colorManipulator'
 import createTypography from '@material-ui/core/styles/createTypography'
 import createPalette from '@material-ui/core/styles/createPalette'
 import type { Theme } from '@material-ui/core/styles'
-import { darkColors, lightColors } from '@pancakeswap/ui/tokens/colors'
+import { darkColors, lightColors } from '@tmyswap/ui/tokens/colors'
 
 // utils
 const fontSize = 14

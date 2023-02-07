@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useMemo } from "react";
 import { format } from "date-fns";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Flex } from "../../components/Box";
 import { Text } from "../../components/Text";
 import { Skeleton } from "../../components/Skeleton";

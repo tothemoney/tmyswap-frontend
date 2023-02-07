@@ -1,4 +1,4 @@
-import { JSBI, Percent } from '@pancakeswap/sdk'
+import { JSBI, Percent } from '@tmyswap/sdk'
 
 export const BIG_INT_TEN = JSBI.BigInt(10)
 // one basis point

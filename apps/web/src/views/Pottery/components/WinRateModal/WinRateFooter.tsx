@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { Flex, Box, Text, ExpandableLabel, Grid } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Box, Text, ExpandableLabel, Grid } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 
 const Footer = styled(Flex)`
   width: 100%;

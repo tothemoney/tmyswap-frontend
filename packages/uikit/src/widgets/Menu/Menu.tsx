@@ -1,5 +1,5 @@
-import { useIsMounted } from "@pancakeswap/hooks";
-import { AtomBox } from "@pancakeswap/ui/components/AtomBox";
+import { useIsMounted } from "@tmyswap/hooks";
+import { AtomBox } from "@tmyswap/ui/components/AtomBox";
 import throttle from "lodash/throttle";
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import styled from "styled-components";

@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import styled, { useTheme } from "styled-components";
 import getThemeValue from "../../util/getThemeValue";
 import Modal from "./Modal";

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Box, Flex, Skeleton, Text, ProfileAvatar, NextLinkFromReactRouter } from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { Box, Flex, Skeleton, Text, ProfileAvatar, NextLinkFromReactRouter } from '@tmyswap/uikit'
+import truncateHash from '@tmyswap/utils/truncateHash'
 import { useProfileForAddress } from 'state/profile/hooks'
 
 const StyledFlex = styled(Flex)`

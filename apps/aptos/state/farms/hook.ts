@@ -1,16 +1,16 @@
 /* eslint-disable camelcase */
-import { ChainId, Coin, Pair, PAIR_RESERVE_TYPE_TAG } from '@pancakeswap/aptos-swap-sdk'
-import { DeserializedFarmsState, deserializeFarm } from '@pancakeswap/farms'
-import { useAccount, useAccountResource, useCoins, useQueries, useQuery } from '@pancakeswap/awgmi'
+import { ChainId, Coin, Pair, PAIR_RESERVE_TYPE_TAG } from '@tmyswap/aptos-swap-sdk'
+import { DeserializedFarmsState, deserializeFarm } from '@tmyswap/farms'
+import { useAccount, useAccountResource, useCoins, useQueries, useQuery } from '@tmyswap/awgmi'
 import {
   FetchCoinResult,
   unwrapTypeArgFromString,
   fetchTableItem,
   FetchAccountResourceResult,
-} from '@pancakeswap/awgmi/core'
-import { getFarmsPrices } from '@pancakeswap/farms/farmPrices'
-import { BIG_TWO, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+} from '@tmyswap/awgmi/core'
+import { getFarmsPrices } from '@tmyswap/farms/farmPrices'
+import { BIG_TWO, BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { getFullDecimalMultiplier } from '@tmyswap/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
 import { APT, L0_USDC } from 'config/coins'
 import { CAKE_PID } from 'config/constants'

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { useRouter } from 'next/router'
 import BaseSubMenu from '../../Nft/market/components/BaseSubMenu'
 

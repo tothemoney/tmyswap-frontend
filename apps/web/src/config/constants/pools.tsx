@@ -1,9 +1,9 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Pool } from '@pancakeswap/uikit'
-import { SerializedWrappedToken } from '@pancakeswap/token-lists'
+import { Pool } from '@tmyswap/uikit'
+import { SerializedWrappedToken } from '@tmyswap/token-lists'
 import Trans from 'components/Trans'
 import { VaultKey } from 'state/types'
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@tmyswap/tokens'
 import { PoolCategory } from './types'
 
 export const MAX_LOCK_DURATION = 31536000

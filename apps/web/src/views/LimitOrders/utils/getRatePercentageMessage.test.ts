@@ -1,4 +1,4 @@
-import { JSBI, Price, ERC20Token } from '@pancakeswap/sdk'
+import { JSBI, Price, ERC20Token } from '@tmyswap/sdk'
 import getRatePercentageDifference from './getRatePercentageDifference'
 import { getRatePercentageMessage, PercentageDirection } from './getRatePercentageMessage'
 

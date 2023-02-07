@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   Box,
   Button,
@@ -12,8 +12,8 @@ import {
   Text,
   ThemeSwitcher,
   Toggle,
-} from '@pancakeswap/uikit'
-import { escapeRegExp } from '@pancakeswap/utils/escapeRegExp'
+} from '@tmyswap/uikit'
+import { escapeRegExp } from '@tmyswap/utils/escapeRegExp'
 import { useTheme } from 'next-themes'
 import { useCallback, useState } from 'react'
 import { useAudioPlay, useUserSlippage } from 'state/user'

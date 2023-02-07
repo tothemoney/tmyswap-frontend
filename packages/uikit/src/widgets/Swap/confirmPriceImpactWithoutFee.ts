@@ -1,5 +1,5 @@
-import { Percent } from "@pancakeswap/swap-sdk-core";
-import { ContextApi } from "@pancakeswap/localization";
+import { Percent } from "@tmyswap/swap-sdk-core";
+import { ContextApi } from "@tmyswap/localization";
 
 /**
  * Given the price impact, get user confirmation.

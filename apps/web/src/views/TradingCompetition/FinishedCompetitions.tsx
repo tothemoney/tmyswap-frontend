@@ -1,6 +1,6 @@
 import React from 'react'
-import { Flex } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import FanTokenAllBunnies from './pngs/fan-token-all-bunnies.png'
 import MoboxAllBunnies from './pngs/mobox-all-bunnies.png'
 import SubMenu from './components/SubMenu'

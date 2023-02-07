@@ -2,7 +2,7 @@
   "name": "farms-api",
   "version": "0.0.0",
   "dependencies": {
-    "@pancakeswap/farms": "*",
+    "@tmyswap/farms": "*",
     "itty-router": "^2.6.1",
     "itty-router-extras": "^0.4.2"
   },

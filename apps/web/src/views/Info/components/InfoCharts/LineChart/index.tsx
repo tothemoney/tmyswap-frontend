@@ -3,7 +3,7 @@ import { ResponsiveContainer, XAxis, YAxis, Tooltip, AreaChart, Area } from 'rec
 import useTheme from 'hooks/useTheme'
 import { formatAmount } from 'utils/formatInfoNumbers'
 import { LineChartLoader } from 'components/ChartLoaders'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 
 export type LineChartProps = {
   data: any[]

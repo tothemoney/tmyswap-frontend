@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { CheckmarkIcon, CloseIcon, LinkExternal } from '@pancakeswap/uikit'
+import { CheckmarkIcon, CloseIcon, LinkExternal } from '@tmyswap/uikit'
 import { getBlockExploreLink } from 'utils'
 import { TransactionDetails } from 'state/transactions/reducer'
 import CircleLoader from '../../Loader/CircleLoader'

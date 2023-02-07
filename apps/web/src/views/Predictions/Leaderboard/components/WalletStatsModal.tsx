@@ -13,15 +13,15 @@ import {
   Skeleton,
   Heading,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useProfileForAddress } from 'state/profile/hooks'
 import useTheme from 'hooks/useTheme'
 import styled from 'styled-components'
 import { getBlockExploreLink } from 'utils'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { Token } from '@pancakeswap/sdk'
+import truncateHash from '@tmyswap/utils/truncateHash'
+import { Token } from '@tmyswap/sdk'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { FetchStatus } from 'config/constants/types'
 import { PredictionUser } from 'state/types'
 import { NetWinningsView } from './Results/styles'

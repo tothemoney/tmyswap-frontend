@@ -2,7 +2,7 @@ import useSWRImmutable from 'swr/immutable'
 import { NO_PROXY_CONTRACT } from 'config/constants'
 import { useBCakeFarmBoosterContract } from 'hooks/useContract'
 import { FetchStatus } from 'config/constants/types'
-import { bCakeSupportedChainId } from '@pancakeswap/farms/src/index'
+import { bCakeSupportedChainId } from '@tmyswap/farms/src/index'
 
 export const useBCakeProxyContractAddress = (account?: string, chainId?: number) => {
   const bCakeFarmBoosterContract = useBCakeFarmBoosterContract()

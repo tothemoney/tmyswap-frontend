@@ -1,11 +1,11 @@
 import BigNumber from 'bignumber.js'
 import { vaultPoolConfig } from 'config/constants/pools'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getApy } from '@pancakeswap/utils/compoundApyHelpers'
-import { getBalanceNumber, getFullDisplayBalance, getDecimalAmount } from '@pancakeswap/utils/formatBalance'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { getApy } from '@tmyswap/utils/compoundApyHelpers'
+import { getBalanceNumber, getFullDisplayBalance, getDecimalAmount } from '@tmyswap/utils/formatBalance'
 import memoize from 'lodash/memoize'
-import { Token } from '@pancakeswap/sdk'
-import { Pool } from '@pancakeswap/uikit'
+import { Token } from '@tmyswap/sdk'
+import { Pool } from '@tmyswap/uikit'
 
 // min deposit and withdraw amount
 export const MIN_LOCK_AMOUNT = new BigNumber(10000000000000)

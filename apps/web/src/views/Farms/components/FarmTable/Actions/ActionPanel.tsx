@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   Farm as FarmUI,
   FarmTableLiquidityProps,
@@ -6,9 +6,9 @@ import {
   LinkExternal,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 
-import { FarmWithStakedValue } from '@pancakeswap/farms'
+import { FarmWithStakedValue } from '@tmyswap/farms'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useContext, useMemo } from 'react'

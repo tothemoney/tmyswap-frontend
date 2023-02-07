@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Script from 'next/script'
 import styled, { useTheme } from 'styled-components'
-import { Flex, Box } from '@pancakeswap/uikit'
+import { Flex, Box } from '@tmyswap/uikit'
 import { LAYER_ZERO_JS } from 'components/layerZero/config'
 import { LayerZeroWidget } from 'components/layerZero/LayerZeroWidget'
 import AptosBridgeMessage from 'components/layerZero/AptosBridgeMessage'

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Card, Box, BlockIcon, CardBody } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Card, Box, BlockIcon, CardBody } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { NodeRound, BetPosition, NodeLedger } from 'state/types'
 import { useGetBufferSeconds } from 'state/predictions/hooks'
 import { getHasRoundFailed } from 'state/predictions/helpers'

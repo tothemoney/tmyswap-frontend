@@ -1,10 +1,10 @@
-import { Flex, Box, Text, BalanceWithLoading, HelpIcon, useTooltip } from '@pancakeswap/uikit'
+import { Flex, Box, Text, BalanceWithLoading, HelpIcon, useTooltip } from '@tmyswap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { TokenImage } from 'components/TokenImage'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { WalletIfoData } from 'views/Ifos/types'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import { useTranslation } from '@pancakeswap/localization'
+import { getBalanceNumber } from '@tmyswap/utils/formatBalance'
+import { useTranslation } from '@tmyswap/localization'
 
 interface TotalPurchasedProps {
   ifo: Ifo

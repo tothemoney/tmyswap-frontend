@@ -1,8 +1,8 @@
 import { memo, useState } from 'react'
-import { JSBI, Percent } from '@pancakeswap/swap-sdk-core'
+import { JSBI, Percent } from '@tmyswap/swap-sdk-core'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Pair, Currency, CurrencyAmount } from '@pancakeswap/aptos-swap-sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { Pair, Currency, CurrencyAmount } from '@tmyswap/aptos-swap-sdk'
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
 
 import {
@@ -20,10 +20,10 @@ import {
   RowFixed,
   Button,
   AddIcon,
-} from '@pancakeswap/uikit/src/components'
+} from '@tmyswap/uikit/src/components'
 
-import { useTooltip } from '@pancakeswap/uikit/src/hooks'
-import { NextLinkFromReactRouter } from '@pancakeswap/uikit/src/components/NextLink'
+import { useTooltip } from '@tmyswap/uikit/src/hooks'
+import { NextLinkFromReactRouter } from '@tmyswap/uikit/src/components/NextLink'
 import formatAmountDisplay from 'utils/formatAmountDisplay'
 
 const FixedHeightRow = styled(RowBetween)`

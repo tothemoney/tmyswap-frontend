@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   Button,
   CheckmarkIcon,
@@ -14,8 +14,8 @@ import {
   RowBetween,
   RowFixed,
   ListLogo,
-} from '@pancakeswap/uikit'
-import { TokenList, Version } from '@pancakeswap/token-lists'
+} from '@tmyswap/uikit'
+import { TokenList, Version } from '@tmyswap/token-lists'
 import Card from 'components/Card'
 import { UNSUPPORTED_LIST_URLS } from 'config/constants/lists'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -29,8 +29,8 @@ import {
   disableList,
   enableList,
   removeList,
-} from '@pancakeswap/token-lists/react'
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
+} from '@tmyswap/token-lists/react'
+import uriToHttp from '@tmyswap/utils/uriToHttp'
 
 import { selectorByUrlsAtom, useActiveListUrls, useAllLists, useIsListActive } from 'state/lists/hooks'
 

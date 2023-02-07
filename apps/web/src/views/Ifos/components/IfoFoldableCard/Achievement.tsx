@@ -12,14 +12,14 @@ import {
   Link,
   TelegramIcon,
   FlexGap,
-} from '@pancakeswap/uikit'
-import { bscTokens } from '@pancakeswap/tokens'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tmyswap/uikit'
+import { bscTokens } from '@tmyswap/tokens'
+import { useTranslation } from '@tmyswap/localization'
 import { PublicIfoData } from 'views/Ifos/types'
 import { Ifo } from 'config/constants/types'
-import { BIG_TEN } from '@pancakeswap/utils/bigNumber'
+import { BIG_TEN } from '@tmyswap/utils/bigNumber'
 import { getBlockExploreLink } from 'utils'
-import { formatBigNumber } from '@pancakeswap/utils/formatBalance'
+import { formatBigNumber } from '@tmyswap/utils/formatBalance'
 
 const SmartContractIcon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (

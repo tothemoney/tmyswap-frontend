@@ -1,5 +1,5 @@
-import { Box, CardBody, Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, CardBody, Flex, Text } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
 import { isAddress } from 'utils'
 import PreviewImage from './PreviewImage'

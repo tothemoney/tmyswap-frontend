@@ -1,9 +1,9 @@
 import { useAccount } from 'wagmi'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount } from '@tmyswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
 import { isAddress } from 'utils'
 
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import tryParseAmount from '@tmyswap/utils/tryParseAmount'
 import { Field } from 'state/swap/actions'
 import { computeSlippageAdjustedAmounts } from 'utils/exchange'
 import { useUserSlippageTolerance } from 'state/user/hooks'

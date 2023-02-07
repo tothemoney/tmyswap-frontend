@@ -1,5 +1,5 @@
-import { getFarmsPriceHelperLpFiles } from '@pancakeswap/farms/constants/priceHelperLps/getFarmsPriceHelperLpFiles'
-import { ChainId } from '@pancakeswap/sdk'
+import { getFarmsPriceHelperLpFiles } from '@tmyswap/farms/constants/priceHelperLps/getFarmsPriceHelperLpFiles'
+import { ChainId } from '@tmyswap/sdk'
 import PoolsEthereumPriceHelper from './pools/1'
 import PoolsGoerliPriceHelper from './pools/5'
 import PoolsBscPriceHelper from './pools/56'

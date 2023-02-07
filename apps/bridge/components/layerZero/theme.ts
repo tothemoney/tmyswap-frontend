@@ -1,4 +1,4 @@
-import { darkColors, lightColors } from '@pancakeswap/ui/tokens/colors'
+import { darkColors, lightColors } from '@tmyswap/ui/tokens/colors'
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints'
 
 export const breakpoints = createBreakpoints({

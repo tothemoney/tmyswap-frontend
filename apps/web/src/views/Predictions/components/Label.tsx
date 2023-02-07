@@ -1,5 +1,5 @@
-import { Box, CoinSwitcher, Flex, PocketWatchIcon, Text, CloseIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, CoinSwitcher, Flex, PocketWatchIcon, Text, CloseIcon } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { useRouter } from 'next/router'
 import { useCallback, useState } from 'react'
 import { PREDICTION_TOOLTIP_DISMISS_KEY } from 'config/constants'

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tmyswap/sdk'
 
 export const ChainIdName = {
   [ChainId.ETHEREUM]: 'eth',

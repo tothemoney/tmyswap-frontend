@@ -1,7 +1,7 @@
 import { SWRConfig } from 'swr'
 import { InferGetServerSidePropsType } from 'next'
 import { getArticle, getCategories } from 'hooks/getArticle'
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@tmyswap/uikit'
 import NewBlog from 'components/NewBlog'
 import ChefsChoice from 'components/ChefsChoice'
 import AllArticle from 'components/Article/AllArticle'

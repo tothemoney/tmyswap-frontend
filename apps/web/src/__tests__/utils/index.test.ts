@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { AddressZero } from '@ethersproject/constants'
-import { Token, ChainId, Percent, JSBI, CurrencyAmount } from '@pancakeswap/sdk'
+import { Token, ChainId, Percent, JSBI, CurrencyAmount } from '@tmyswap/sdk'
 import { getBlockExploreLink, isAddress, calculateGasMargin } from 'utils'
 import { calculateSlippageAmount, basisPointsToPercent } from 'utils/exchange'
 

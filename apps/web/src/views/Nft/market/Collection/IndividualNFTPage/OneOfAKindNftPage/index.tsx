@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
-import { Flex } from '@pancakeswap/uikit'
+import { Flex } from '@tmyswap/uikit'
 import sum from 'lodash/sum'
 import noop from 'lodash/noop'
 import Page from 'components/Layout/Page'

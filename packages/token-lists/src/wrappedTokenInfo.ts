@@ -1,4 +1,4 @@
-import { SerializedToken, Token } from '@pancakeswap/swap-sdk-core'
+import { SerializedToken, Token } from '@tmyswap/swap-sdk-core'
 import { TokenInfo, TokenList } from './types'
 
 export interface SerializedWrappedToken extends SerializedToken {

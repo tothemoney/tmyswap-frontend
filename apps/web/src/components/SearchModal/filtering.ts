@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
-import { TokenInfo } from '@pancakeswap/token-lists'
-import { Token } from '@pancakeswap/sdk'
+import { TokenInfo } from '@tmyswap/token-lists'
+import { Token } from '@tmyswap/sdk'
 import { isAddress } from 'utils'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

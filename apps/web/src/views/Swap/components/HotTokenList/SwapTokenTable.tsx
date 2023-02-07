@@ -1,5 +1,5 @@
 import { getAddress } from '@ethersproject/address'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -13,8 +13,8 @@ import {
   Text,
   TokenLogo,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { Currency, Token, ChainId } from '@pancakeswap/sdk'
+} from '@tmyswap/uikit'
+import { Currency, Token, ChainId } from '@tmyswap/sdk'
 import { BAD_SRCS } from 'components/Logo/constants'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -179,7 +179,7 @@ const DataRow: React.FC<
               tokenLogoURL,
               `https://${
                 chainId === ChainId.BSC ? 'tokens.' : ''
-              }pancakeswap.finance/images/${imagePath}${address}.png`,
+              }tmyswap.org/images/${imagePath}${address}.png`,
             ]}
           />
           {(isXs || isSm) && <Text ml="8px">{tokenData.symbol}</Text>}

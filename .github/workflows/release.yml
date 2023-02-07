@@ -11,7 +11,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    if: github.repository == 'pancakeswap/pancake-frontend'
+    if: github.repository == 'tothemoney/tmyswap-frontend'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2

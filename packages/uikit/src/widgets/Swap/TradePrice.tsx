@@ -1,5 +1,5 @@
-import { Price, Currency } from "@pancakeswap/swap-sdk-core";
-import { AtomBox } from "@pancakeswap/ui/components/AtomBox";
+import { Price, Currency } from "@tmyswap/swap-sdk-core";
+import { AtomBox } from "@tmyswap/ui/components/AtomBox";
 import { useState } from "react";
 import { balanceMaxMiniClass } from "./SwapWidget.css";
 import { AutoRenewIcon } from "../../components/Svg";

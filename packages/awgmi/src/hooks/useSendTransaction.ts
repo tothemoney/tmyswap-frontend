@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { sendTransaction, SendTransactionArgs, SendTransactionResult } from '@pancakeswap/awgmi/core'
+import { sendTransaction, SendTransactionArgs, SendTransactionResult } from '@tmyswap/awgmi/core'
 
 import { MutationConfig } from '../types'
 import { useMutation } from './utils/useMutation'

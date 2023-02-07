@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import DatePicker, { DatePickerProps } from './DatePicker'
 
 const TimePicker: React.FC<React.PropsWithChildren<DatePickerProps>> = (props) => {

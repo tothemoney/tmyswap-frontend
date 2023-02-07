@@ -1,4 +1,4 @@
-import { Currency, Price } from '@pancakeswap/sdk'
+import { Currency, Price } from '@tmyswap/sdk'
 
 import { RouteWithStableSwap } from '../types'
 import { isStableSwapPair } from './pair'

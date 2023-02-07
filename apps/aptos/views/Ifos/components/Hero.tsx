@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Container, Flex, Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Box, Container, Flex, Heading, Text } from '@tmyswap/uikit'
 import styled from 'styled-components'
 
 const StyledHero = styled(Box)`

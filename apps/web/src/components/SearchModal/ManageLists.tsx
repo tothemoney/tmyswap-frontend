@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   Button,
   CheckmarkIcon,
@@ -9,8 +9,8 @@ import {
   Text,
   Toggle,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { TokenList, Version } from '@pancakeswap/token-lists'
+} from '@tmyswap/uikit'
+import { TokenList, Version } from '@tmyswap/token-lists'
 import Card from 'components/Card'
 import { BSC_URLS, ETH_URLS, UNSUPPORTED_LIST_URLS } from 'config/constants/lists'
 import { useAtomValue } from 'jotai'
@@ -23,9 +23,9 @@ import {
   disableList,
   enableList,
   removeList,
-} from '@pancakeswap/token-lists/react'
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
-import { ChainId } from '@pancakeswap/sdk'
+} from '@tmyswap/token-lists/react'
+import uriToHttp from '@tmyswap/utils/uriToHttp'
+import { ChainId } from '@tmyswap/sdk'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { selectorByUrlsAtom, useActiveListUrls, useAllLists, useIsListActive } from '../../state/lists/hooks'

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Modal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Modal } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { LotteryStatus } from 'config/constants/types'
 import { useLottery } from 'state/lottery/hooks'
 import useTheme from 'hooks/useTheme'

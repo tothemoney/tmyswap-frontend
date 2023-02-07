@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Text, Button, Input, InputProps, Flex, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Button, Input, InputProps, Flex, Link } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { parseUnits } from '@ethersproject/units'
-import { formatBigNumber } from '@pancakeswap/utils/formatBalance'
+import { formatBigNumber } from '@tmyswap/utils/formatBalance'
 
 interface ModalInputProps {
   max: string

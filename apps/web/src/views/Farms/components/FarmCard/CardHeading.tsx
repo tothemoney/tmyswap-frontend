@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Tag, Flex, Heading, Box, Skeleton, Farm as FarmUI } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/sdk'
+import { Tag, Flex, Heading, Box, Skeleton, Farm as FarmUI } from '@tmyswap/uikit'
+import { Token } from '@tmyswap/sdk'
 import { TokenPairImage } from 'components/TokenImage'
 import BoostedTag from '../YieldBooster/components/BoostedTag'
 

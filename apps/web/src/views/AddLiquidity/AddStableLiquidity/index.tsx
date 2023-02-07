@@ -1,5 +1,5 @@
 import { useCallback, useContext, useMemo, useState } from 'react'
-import { CurrencyAmount, Token, WNATIVE, Percent } from '@pancakeswap/sdk'
+import { CurrencyAmount, Token, WNATIVE, Percent } from '@tmyswap/sdk'
 import {
   Button,
   Text,
@@ -12,9 +12,9 @@ import {
   useTooltip,
   IconButton,
   PencilIcon,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { logError } from 'utils/sentry'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { CommitButton } from 'components/CommitButton'
 import { transactionErrorToUserReadableMessage } from 'utils/transactionErrorToUserReadableMessage'

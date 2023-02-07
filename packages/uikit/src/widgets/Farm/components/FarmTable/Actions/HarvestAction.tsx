@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import BigNumber from "bignumber.js";
 import { Button } from "../../../../../components/Button";
 import { Heading } from "../../../../../components/Heading";

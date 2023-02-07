@@ -1,7 +1,7 @@
 import { useEffect, Fragment, useState } from "react";
 import { format } from "date-fns";
 import styled from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Flex } from "../../components/Box";
 import DateStep from "../../components/DateStep/DateStep";
 

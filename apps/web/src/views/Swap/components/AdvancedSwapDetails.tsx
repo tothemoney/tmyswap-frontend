@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent, TradeType } from '@pancakeswap/sdk'
-import { Pair } from '@pancakeswap/smart-router/evm'
-import { Modal, ModalV2, QuestionHelper, SearchIcon, Text, Flex, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Currency, CurrencyAmount, Percent, TradeType } from '@tmyswap/sdk'
+import { Pair } from '@tmyswap/smart-router/evm'
+import { Modal, ModalV2, QuestionHelper, SearchIcon, Text, Flex, Link } from '@tmyswap/uikit'
 
 import { AutoColumn } from 'components/Layout/Column'
 import { RowBetween, RowFixed } from 'components/Layout/Row'
@@ -103,7 +103,7 @@ function TradeSummary({
                           style={{ display: 'inline' }}
                           ml="4px"
                           external
-                          href="https://docs.pancakeswap.finance/products/stableswap#stableswap-fees"
+                          href="https://docs.tmyswap.org/products/stableswap#stableswap-fees"
                         >
                           {t('here.')}
                         </Link>

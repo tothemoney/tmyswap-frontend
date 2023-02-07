@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, TwitterIcon, TelegramIcon, RedditIcon, Link } from '@pancakeswap/uikit'
+import { Flex, TwitterIcon, TelegramIcon, RedditIcon, Link } from '@tmyswap/uikit'
 import { useRouter } from 'next/router'
 
 const StyledLink = styled(Link)`
@@ -33,7 +33,7 @@ const StyledSocialIcon = styled(Flex)`
   }
 `
 
-const BLOG_URL = 'https://blog.pancakeswap.finance'
+const BLOG_URL = 'https://blog.tmyswap.org'
 
 const SocialIcon = () => {
   const router = useRouter()

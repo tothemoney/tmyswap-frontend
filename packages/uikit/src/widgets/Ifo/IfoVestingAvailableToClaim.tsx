@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import BigNumber from "bignumber.js";
-import { useTranslation } from "@pancakeswap/localization";
-import { getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
+import { useTranslation } from "@tmyswap/localization";
+import { getFullDisplayBalance } from "@tmyswap/utils/formatBalance";
 import { Text } from "../../components/Text";
 
 interface IfoVestingAvailableToClaimProps {

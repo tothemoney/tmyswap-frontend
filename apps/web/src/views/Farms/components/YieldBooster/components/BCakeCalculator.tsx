@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   BalanceInput,
   Box,
@@ -11,14 +11,14 @@ import {
   useRoiCalculatorReducer,
   CalculatorMode,
   EditingCurrency,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import BigNumber from 'bignumber.js'
 import _toNumber from 'lodash/toNumber'
 import { useEffect, useMemo, useState } from 'react'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import styled, { useTheme } from 'styled-components'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { getBalanceNumber } from '@tmyswap/utils/formatBalance'
 import { useBCakeTooltipContent } from 'views/Farms/components/BCakeBoosterCard'
 import { useUserLockedCakeStatus } from 'views/Farms/hooks/useUserLockedCakeStatus'
 import { weeksToSeconds } from 'views/Pools/components/utils/formatSecondsToWeeks'

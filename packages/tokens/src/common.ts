@@ -1,4 +1,4 @@
-import { ChainId, ERC20Token } from '@pancakeswap/sdk'
+import { ChainId, ERC20Token } from '@tmyswap/sdk'
 
 export const CAKE_MAINNET = new ERC20Token(
   ChainId.BSC,
@@ -6,7 +6,7 @@ export const CAKE_MAINNET = new ERC20Token(
   18,
   'CAKE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://tmyswap.org/',
 )
 
 export const CAKE_TESTNET = new ERC20Token(
@@ -15,7 +15,7 @@ export const CAKE_TESTNET = new ERC20Token(
   18,
   'CAKE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://tmyswap.org/',
 )
 
 export const USDC_BSC = new ERC20Token(

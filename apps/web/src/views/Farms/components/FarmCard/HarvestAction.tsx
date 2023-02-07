@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   Button,
   Flex,
@@ -9,7 +9,7 @@ import {
   useModal,
   Balance,
   FARMS_SMALL_AMOUNT_THRESHOLD,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
@@ -17,9 +17,9 @@ import useCatchTxError from 'hooks/useCatchTxError'
 
 import { TransactionResponse } from '@ethersproject/providers'
 import { usePriceCakeBusd } from 'state/farms/hooks'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
-import { Token } from '@pancakeswap/sdk'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { getBalanceAmount } from '@tmyswap/utils/formatBalance'
+import { Token } from '@tmyswap/sdk'
 import MultiChainHarvestModal from 'views/Farms/components/MultiChainHarvestModal'
 
 interface FarmCardActionsProps {

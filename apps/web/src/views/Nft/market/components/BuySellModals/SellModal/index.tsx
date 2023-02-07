@@ -1,6 +1,6 @@
 import { parseUnits } from '@ethersproject/units'
-import { ContextApi, useTranslation } from '@pancakeswap/localization'
-import { InjectedModalProps, useToast } from '@pancakeswap/uikit'
+import { ContextApi, useTranslation } from '@tmyswap/localization'
+import { InjectedModalProps, useToast } from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'

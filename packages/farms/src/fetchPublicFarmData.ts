@@ -1,5 +1,5 @@
-import { MultiCallV2 } from '@pancakeswap/multicall'
-import { ChainId } from '@pancakeswap/sdk'
+import { MultiCallV2 } from '@tmyswap/multicall'
+import { ChainId } from '@tmyswap/sdk'
 import chunk from 'lodash/chunk'
 import { SerializedFarmPublicData, SerializedFarmConfig } from './types'
 import { nonBSCVaultAddresses } from './const'

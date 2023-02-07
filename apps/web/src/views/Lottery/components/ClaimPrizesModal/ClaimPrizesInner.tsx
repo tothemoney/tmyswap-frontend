@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, Flex, PresentWonIcon, Text, useToast, Balance } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { AutoRenewIcon, Button, Flex, PresentWonIcon, Text, useToast, Balance } from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { LotteryTicket, LotteryTicketClaimData } from 'config/constants/types'
@@ -12,7 +12,7 @@ import { fetchUserLotteries } from 'state/lottery'
 import { useLottery } from 'state/lottery/hooks'
 import { useGasPrice } from 'state/user/hooks'
 import { callWithEstimateGas } from 'utils/calls'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { getBalanceAmount } from '@tmyswap/utils/formatBalance'
 
 interface ClaimInnerProps {
   roundsToClaim: LotteryTicketClaimData[]

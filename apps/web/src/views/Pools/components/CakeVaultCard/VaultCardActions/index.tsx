@@ -1,10 +1,10 @@
 import BigNumber from 'bignumber.js'
 
 import styled from 'styled-components'
-import { Flex, Text, Box, Pool } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { Token } from '@pancakeswap/sdk'
+import { Flex, Text, Box, Pool } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { Token } from '@tmyswap/sdk'
 
 import VaultApprovalAction from './VaultApprovalAction'
 import VaultStakeActions from './VaultStakeActions'

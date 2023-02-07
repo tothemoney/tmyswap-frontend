@@ -1,8 +1,8 @@
 import { Fragment } from 'react'
 import _uniqueId from 'lodash/uniqueId'
 import styled from 'styled-components'
-import { Flex } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { CountdownProps } from '../../types'
 import Step from './Step'
 

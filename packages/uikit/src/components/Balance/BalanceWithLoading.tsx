@@ -1,6 +1,6 @@
-import { TextProps, Skeleton } from "@pancakeswap/uikit";
+import { TextProps, Skeleton } from "@tmyswap/uikit";
 import { useMemo } from "react";
-import isUndefinedOrNull from "@pancakeswap/utils/isUndefinedOrNull";
+import isUndefinedOrNull from "@tmyswap/utils/isUndefinedOrNull";
 import _toNumber from "lodash/toNumber";
 import _isNaN from "lodash/isNaN";
 import _replace from "lodash/replace";

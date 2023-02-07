@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Card, CardHeader, Box, Heading, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardHeader, Box, Heading, Text } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import PrizesGrid from '../../../components/PrizesInfo/PrizesGrid/PrizesGrid'
 import { mboxPrizes } from '../../../../../config/constants/trading-competition/prizes'
 

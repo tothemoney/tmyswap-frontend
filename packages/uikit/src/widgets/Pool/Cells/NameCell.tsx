@@ -1,8 +1,8 @@
 import BigNumber from "bignumber.js";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import React, { useMemo, ReactNode } from "react";
 import styled from "styled-components";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { BIG_ZERO } from "@tmyswap/utils/bigNumber";
 import { DeserializedPool } from "../types";
 import { BaseCell, CellContent } from "./BaseCell";
 import { Text, Skeleton } from "../../../components";

@@ -1,4 +1,4 @@
-import { useTranslation, ContextData, TranslationKey } from '@pancakeswap/localization'
+import { useTranslation, ContextData, TranslationKey } from '@tmyswap/localization'
 import { createElement, Fragment } from 'react'
 
 export interface TransProps extends ContextData {

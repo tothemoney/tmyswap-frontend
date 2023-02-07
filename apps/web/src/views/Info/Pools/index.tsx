@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Card, Heading, Text } from '@tmyswap/uikit'
 import Page from 'components/Layout/Page'
 import { useMemo } from 'react'
 import { usePoolDatasSWR } from 'state/info/hooks'

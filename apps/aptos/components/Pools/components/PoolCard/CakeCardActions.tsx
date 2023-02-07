@@ -1,5 +1,5 @@
-import { Pool } from '@pancakeswap/uikit'
-import { Coin } from '@pancakeswap/aptos-swap-sdk'
+import { Pool } from '@tmyswap/uikit'
+import { Coin } from '@tmyswap/aptos-swap-sdk'
 import CakeCollectModal from './CakeCollectModal'
 import CakeStakeModal from './CakeStakeModal'
 

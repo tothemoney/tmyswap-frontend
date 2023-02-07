@@ -1,4 +1,4 @@
-import { useModal, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useModal, useMatchBreakpoints } from '@tmyswap/uikit'
 import { PageMeta } from 'components/Layout/Page'
 import { useEffect, useRef } from 'react'
 import { useChartView, useIsChartPaneOpen } from 'state/predictions/hooks'

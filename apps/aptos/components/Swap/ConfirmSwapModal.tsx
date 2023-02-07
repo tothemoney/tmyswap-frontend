@@ -1,15 +1,15 @@
 import { useCallback, memo, useMemo } from 'react'
-import { Trade, Currency, TradeType, CurrencyAmount } from '@pancakeswap/aptos-swap-sdk'
+import { Trade, Currency, TradeType, CurrencyAmount } from '@tmyswap/aptos-swap-sdk'
 import {
   InjectedModalProps,
   LinkExternal,
   Text,
   TransactionErrorContent,
   ConfirmationPendingContent,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import { Field } from 'state/swap'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import TransactionConfirmSwapContent from './TransactionConfirmSwapContent'
 import ConfirmSwapModalContainer from './ConfirmSwapModalContainer'
@@ -42,7 +42,7 @@ const SwapTransactionErrorContent = ({ onDismiss, message, openSettingModal }) =
             </Text>
           </Text>
           <LinkExternal
-            href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/trade-guide"
+            href="https://docs.tmyswap.org/products/pancakeswap-exchange/trade-guide"
             style={{ width: '100%', justifyContent: 'center' }}
           >
             {t('What are the potential issues with the token?')}

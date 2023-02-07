@@ -3,9 +3,9 @@ import { multicallv2, multicallv3 } from 'utils/multicall'
 import cakeAbi from 'config/abi/cake.json'
 import cakeVaultAbi from 'config/abi/cakeVaultV2.json'
 import { getCakeVaultAddress, getCakeFlexibleSideVaultAddress } from 'utils/addressHelpers'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { ChainId } from '@pancakeswap/sdk'
-import { CAKE } from '@pancakeswap/tokens'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { ChainId } from '@tmyswap/sdk'
+import { CAKE } from '@tmyswap/tokens'
 
 const cakeVaultV2 = getCakeVaultAddress()
 const cakeFlexibleSideVaultV2 = getCakeFlexibleSideVaultAddress()

@@ -1,14 +1,14 @@
 # 🥞 Pancake UIkit
 
-[![Version](https://img.shields.io/npm/v/@pancakeswap/uikit)](https://www.npmjs.com/package/@pancakeswap/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap/uikit)](https://www.npmjs.com/package/@pancakeswap/uikit)
+[![Version](https://img.shields.io/npm/v/@tmyswap/uikit)](https://www.npmjs.com/package/@tmyswap/uikit) [![Size](https://img.shields.io/bundlephobia/min/@tmyswap/uikit)](https://www.npmjs.com/package/@tmyswap/uikit)
 
 Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @pancakeswap/uikit`
+`yarn add @tmyswap/uikit`
 
-***Note**: In case you want to use the older version of the Pancake UIkit, you should install @pancakeswap-libs/uikit, instead, but we recommend using the latest version of the UIkit.*
+***Note**: In case you want to use the older version of the Pancake UIkit, you should install @tmyswap-libs/uikit, instead, but we recommend using the latest version of the UIkit.*
 
 
 ## Setup
@@ -18,7 +18,7 @@ Pancake UIkit is a set of React components and hooks used to build pages on Panc
 Before using Pancake UIkit, you need to provide the theme file to uikit provider.
 
 ```
-import { UIKitProvider, light, dark } from '@pancakeswap/uikit'
+import { UIKitProvider, light, dark } from '@tmyswap/uikit'
 ...
 <UIKitProvider theme={isDark ? dark : light}>...</UIKitProvider>
 ```
@@ -28,7 +28,7 @@ import { UIKitProvider, light, dark } from '@pancakeswap/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@pancakeswap/uikit'
+import { ResetCSS } from '@tmyswap/uikit'
 ...
 <ResetCSS />
 ```

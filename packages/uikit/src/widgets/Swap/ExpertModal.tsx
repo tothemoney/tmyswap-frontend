@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Button } from "../../components/Button";
 import { Text } from "../../components/Text";
 import { Flex } from "../../components/Box";

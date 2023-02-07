@@ -1,11 +1,11 @@
-import { Flex, LinkExternal, Pool, Text, TimerIcon, useTooltip } from '@pancakeswap/uikit'
+import { Flex, LinkExternal, Pool, Text, TimerIcon, useTooltip } from '@tmyswap/uikit'
 import { memo, useMemo } from 'react'
 import useLedgerTimestamp from 'hooks/useLedgerTimestamp'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { Token } from '@pancakeswap/sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { BIG_ZERO } from '@tmyswap/utils/bigNumber'
+import { Token } from '@tmyswap/sdk'
+import { useTranslation } from '@tmyswap/localization'
+import { getFullDisplayBalance } from '@tmyswap/utils/formatBalance'
+import getTimePeriods from '@tmyswap/utils/getTimePeriods'
 
 import { AprInfo } from './Stat'
 

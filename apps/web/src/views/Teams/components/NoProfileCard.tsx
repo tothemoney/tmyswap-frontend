@@ -1,5 +1,5 @@
-import { Button, Card, CardBody, Flex, Heading, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Button, Card, CardBody, Flex, Heading, Text } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import Link from 'next/link'
 
 const NoProfileCard = () => {

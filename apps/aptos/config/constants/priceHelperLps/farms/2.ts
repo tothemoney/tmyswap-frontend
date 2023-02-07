@@ -1,6 +1,6 @@
-// import { serializeTokens } from '@pancakeswap/tokens/src/helpers'
-import { ChainId, Pair } from '@pancakeswap/aptos-swap-sdk'
-import type { SerializedFarmConfig } from '@pancakeswap/farms'
+// import { serializeTokens } from '@tmyswap/tokens/src/helpers'
+import { ChainId, Pair } from '@tmyswap/aptos-swap-sdk'
+import type { SerializedFarmConfig } from '@tmyswap/farms'
 import { APT, L0_USDC } from 'config/coins'
 // import { testnetTokens } from 'config/constants/tokens'
 

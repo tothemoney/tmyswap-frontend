@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import {
   ArrowForwardIcon,
   AutoRenewIcon,
@@ -11,7 +11,7 @@ import {
   useToast,
   Balance,
   NextLinkFromReactRouter,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'

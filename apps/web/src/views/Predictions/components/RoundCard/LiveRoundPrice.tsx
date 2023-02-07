@@ -1,8 +1,8 @@
 import React, { memo, useMemo } from 'react'
 import { BigNumber } from '@ethersproject/bignumber'
 import CountUp from 'react-countup'
-import { Skeleton, TooltipText } from '@pancakeswap/uikit'
-import { formatBigNumberToFixed } from '@pancakeswap/utils/formatBalance'
+import { Skeleton, TooltipText } from '@tmyswap/uikit'
+import { formatBigNumberToFixed } from '@tmyswap/utils/formatBalance'
 import { BetPosition } from 'state/types'
 
 interface LiveRoundPriceProps {

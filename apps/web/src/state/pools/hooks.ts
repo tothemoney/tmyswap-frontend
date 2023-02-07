@@ -7,10 +7,10 @@ import { useFastRefreshEffect, useSlowRefreshEffect } from 'hooks/useRefreshEffe
 import { featureFarmApiAtom, useFeatureFlag } from 'hooks/useFeatureFlag'
 import { FAST_INTERVAL } from 'config/constants'
 import useSWRImmutable from 'swr/immutable'
-import { getFarmConfig } from '@pancakeswap/farms/constants'
+import { getFarmConfig } from '@tmyswap/farms/constants'
 import { livePools } from 'config/constants/pools'
-import { Pool } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/sdk'
+import { Pool } from '@tmyswap/uikit'
+import { Token } from '@tmyswap/sdk'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import {

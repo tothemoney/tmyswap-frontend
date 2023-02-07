@@ -9,11 +9,11 @@ import {
   useTooltip,
   LinkExternal,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import _isEmpty from 'lodash/isEmpty'
 import { ReactNode } from 'react'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 
 const Container = styled.div`
   margin-right: 4px;
@@ -34,7 +34,7 @@ const BoosterTooltip = () => {
         `Boost multiplier is calculated based on the staking conditions from both Farms and fixed-term CAKE syrup pool and will be automatically updated upon user actions.`,
       )}
       <LinkExternal
-        href="https://docs.pancakeswap.finance/products/yield-farming/bcake/faq#how-are-the-bcake-multipliers-calculated"
+        href="https://docs.tmyswap.org/products/yield-farming/bcake/faq#how-are-the-bcake-multipliers-calculated"
         external
       >
         {t('Learn More')}

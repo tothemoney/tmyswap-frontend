@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Heading, Card, CardBody } from '@pancakeswap/uikit'
+import { Heading, Card, CardBody } from '@tmyswap/uikit'
 
 interface HowToCardProps {
   number?: number

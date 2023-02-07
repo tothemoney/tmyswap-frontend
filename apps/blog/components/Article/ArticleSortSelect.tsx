@@ -1,4 +1,4 @@
-import { Box, Text, Select, OptionProps } from '@pancakeswap/uikit'
+import { Box, Text, Select, OptionProps } from '@tmyswap/uikit'
 
 interface SortByItem {
   label: string

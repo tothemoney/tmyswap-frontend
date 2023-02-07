@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { Heading, Text } from '@pancakeswap/uikit'
+import { Heading, Text } from '@tmyswap/uikit'
 import { useProfile } from 'state/profile/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import NoProfileCard from './NoProfileCard'
 
 const HeaderWrapper = styled.div`

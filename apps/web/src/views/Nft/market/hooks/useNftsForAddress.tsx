@@ -6,7 +6,7 @@ import { Profile } from 'state/types'
 import { getCompleteAccountNftData } from 'state/nftMarket/helpers'
 import useSWR from 'swr'
 import { FetchStatus } from 'config/constants/types'
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@tmyswap/hooks'
 import { isAddress } from 'utils'
 
 export const useNftsForAddress = (account: string, profile: Profile, isProfileFetching: boolean) => {

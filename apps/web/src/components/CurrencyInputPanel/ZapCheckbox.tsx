@@ -1,4 +1,4 @@
-import { Checkbox } from '@pancakeswap/uikit'
+import { Checkbox } from '@tmyswap/uikit'
 import styled from 'styled-components'
 
 const ZapCheckBoxWrapper = styled.label`

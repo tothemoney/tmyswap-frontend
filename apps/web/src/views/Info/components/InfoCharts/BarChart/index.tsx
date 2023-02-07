@@ -3,7 +3,7 @@ import { BarChart, ResponsiveContainer, XAxis, YAxis, Tooltip, Bar } from 'recha
 import useTheme from 'hooks/useTheme'
 import { formatAmount } from 'utils/formatInfoNumbers'
 import { BarChartLoader } from 'components/ChartLoaders'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 
 export type LineChartProps = {
   data: any[]

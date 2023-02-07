@@ -1,5 +1,5 @@
-import { Card, CardBody, Heading, PrizeIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardBody, Heading, PrizeIcon } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import IconStatBox from 'views/Teams/components/IconStatBox'
 import { Achievement } from 'state/types'
 import AchievementsList from './AchievementsList'

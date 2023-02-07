@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Box, Text, Flex, Card, Button, ArrowForwardIcon, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Text, Flex, Card, Button, ArrowForwardIcon, Link } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 
 const StyledImage = styled('div')`
   position: absolute;
@@ -41,7 +41,7 @@ const HowItWork = () => {
               {t('Trade tokens, earn rewards and play to win!')}
             </Text>
           </Flex>
-          <Link external href="https://docs.pancakeswap.finance/get-started">
+          <Link external href="https://docs.tmyswap.org/get-started">
             <Button endIcon={<ArrowForwardIcon color="currentColor" />}>{t('Learn how')}</Button>
           </Link>
         </Box>

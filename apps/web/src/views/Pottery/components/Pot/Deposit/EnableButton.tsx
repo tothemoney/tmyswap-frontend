@@ -1,5 +1,5 @@
-import { Button, AutoRenewIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Button, AutoRenewIcon } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { useApprovePottery } from 'views/Pottery/hooks/useApprovePottery'
 
 interface Props {

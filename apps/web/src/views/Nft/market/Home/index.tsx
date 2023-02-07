@@ -8,9 +8,9 @@ import {
   PageHeader,
   NextLinkFromReactRouter,
   PageSection,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import { useAccount } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import SectionsWithFoldableText from 'components/FoldableSection/SectionsWithFoldableText'
 import { PageMeta } from 'components/Layout/Page'
 import { useGetCollections } from 'state/nftMarket/hooks'
@@ -123,7 +123,7 @@ const Home = () => {
       )}
       <Gradient p="64px 0">
         <SectionsWithFoldableText header={t('FAQs')} config={config(t)} m="auto" />
-        <LinkExternal href="https://docs.pancakeswap.finance/contact-us/nft-market-applications" mx="auto" mt="16px">
+        <LinkExternal href="https://docs.tmyswap.org/contact-us/nft-market-applications" mx="auto" mt="16px">
           {t('Apply to NFT Marketplace!')}
         </LinkExternal>
       </Gradient>

@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/farms",
+  "name": "@tmyswap/farms",
   "version": "0.0.1",
   "sideEffects": false,
   "private": true,
@@ -11,10 +11,10 @@
     "tsx": "^3.12.1"
   },
   "dependencies": {
-    "@pancakeswap/sdk": "*",
-    "@pancakeswap/tokens": "*",
-    "@pancakeswap/token-lists": "*",
-    "@pancakeswap/multicall": "*",
-    "@pancakeswap/utils": "*"
+    "@tmyswap/sdk": "*",
+    "@tmyswap/tokens": "*",
+    "@tmyswap/token-lists": "*",
+    "@tmyswap/multicall": "*",
+    "@tmyswap/utils": "*"
   }
 }

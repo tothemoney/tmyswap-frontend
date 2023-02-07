@@ -1,8 +1,8 @@
-import '@pancakeswap/ui/css/reset.css'
+import '@tmyswap/ui/css/reset.css'
 import '../css/theme.css'
 
 import BigNumber from 'bignumber.js'
-import { PancakeTheme, ResetCSS, ToastListener } from '@pancakeswap/uikit'
+import { PancakeTheme, ResetCSS, ToastListener } from '@tmyswap/uikit'
 import { Analytics } from '@vercel/analytics/react'
 import { Menu } from 'components/Menu'
 import Providers from 'components/Providers'

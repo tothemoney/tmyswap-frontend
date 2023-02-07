@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/sdk'
-import { TokenAddressMap } from '@pancakeswap/token-lists'
+import { ChainId } from '@tmyswap/sdk'
+import { TokenAddressMap } from '@tmyswap/token-lists'
 
 /**
  * An empty result, useful as a default.

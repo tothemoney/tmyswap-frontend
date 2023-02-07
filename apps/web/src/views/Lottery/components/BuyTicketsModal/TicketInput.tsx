@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import styled from 'styled-components'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { Ticket, UpdateTicketAction } from './useTicketsReducer'
 
 const InputsContainer = styled.div<{ focused: boolean; isDuplicate: boolean }>`

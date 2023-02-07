@@ -1,7 +1,7 @@
 import { ReactElement, createContext, useMemo, memo } from 'react'
 import _noop from 'lodash/noop'
 
-import { FarmWithStakedValue } from '@pancakeswap/farms'
+import { FarmWithStakedValue } from '@tmyswap/farms'
 import useYieldBoosterState, { YieldBoosterState } from '../hooks/useYieldBoosterState'
 
 interface ProxyFarmContainerPropsType {

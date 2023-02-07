@@ -1,9 +1,9 @@
 import { useCallback } from 'react'
 import { useRouter } from 'next/router'
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@tmyswap/uikit'
 import { useConfig } from 'views/Ifos/contexts/IfoContext'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 
 const StakeVaultButton = (props) => {
   const { t } = useTranslation()

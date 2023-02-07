@@ -16,7 +16,7 @@ export {
   ChainNotConfiguredError,
   ConnectorUnauthorizedError,
   ConnectorAlreadyConnectedError,
-} from '@pancakeswap/awgmi/core'
+} from '@tmyswap/awgmi/core'
 
 export * from './client'
 export * from './context'

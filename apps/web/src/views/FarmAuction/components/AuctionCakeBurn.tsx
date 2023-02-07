@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
-import { Text, Flex, Skeleton, Image, Balance } from '@pancakeswap/uikit'
+import { Text, Flex, Skeleton, Image, Balance } from '@tmyswap/uikit'
 import { useFarmAuctionContract } from 'hooks/useContract'
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useIntersectionObserver } from '@tmyswap/hooks'
+import { useTranslation } from '@tmyswap/localization'
 import { usePriceCakeBusd } from 'state/farms/hooks'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import { ethersToBigNumber } from '@pancakeswap/utils/bigNumber'
+import { getBalanceNumber } from '@tmyswap/utils/formatBalance'
+import { ethersToBigNumber } from '@tmyswap/utils/bigNumber'
 import styled from 'styled-components'
 
 const BurnedText = styled(Text)`

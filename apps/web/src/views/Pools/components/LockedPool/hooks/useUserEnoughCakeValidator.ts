@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { useTranslation } from '@pancakeswap/localization'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@tmyswap/localization'
+import { getBalanceAmount } from '@tmyswap/utils/formatBalance'
 
 import { useMemo } from 'react'
 

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Text } from "../../../../../components/Text";
 import { IconButton } from "../../../../../components/Button";
 import { MinusIcon, AddIcon } from "../../../../../components/Svg";

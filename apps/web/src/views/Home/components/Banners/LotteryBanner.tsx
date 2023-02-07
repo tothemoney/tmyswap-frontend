@@ -6,18 +6,18 @@ import {
   Text,
   useMatchBreakpoints,
   NextLinkFromReactRouter,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import BigNumber from 'bignumber.js'
 import { FetchStatus, LotteryStatus } from 'config/constants/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
 import { usePriceCakeBusd } from 'state/farms/hooks'
 import { LotteryResponse } from 'state/types'
 import styled from 'styled-components'
 import useSWR from 'swr'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { getBalanceNumber } from '@tmyswap/utils/formatBalance'
+import getTimePeriods from '@tmyswap/utils/getTimePeriods'
 import Timer from 'views/Lottery/components/Countdown/Timer'
 import useGetNextLotteryEvent from 'views/Lottery/hooks/useGetNextLotteryEvent'
 import useNextEventCountdown from './hooks/useNextEventCountdown'

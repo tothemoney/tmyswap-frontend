@@ -1,7 +1,7 @@
 import { BLOCKS_CLIENT, BLOCKS_CLIENT_ETH, INFO_CLIENT, INFO_CLIENT_ETH } from 'config/constants/endpoints'
 import { infoClientETH, infoClient, infoStableSwapClient } from 'utils/graphql'
 
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@tmyswap/sdk'
 import {
   ETH_TOKEN_BLACKLIST,
   PCS_ETH_START,

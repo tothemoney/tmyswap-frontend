@@ -1,4 +1,4 @@
-# @pancakeswap/sdk
+# @tmyswap/sdk
 
 ## 3.1.4
 

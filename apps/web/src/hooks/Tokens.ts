@@ -1,8 +1,8 @@
 /* eslint-disable no-param-reassign */
 import { arrayify } from '@ethersproject/bytes'
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, ERC20Token, ChainId } from '@pancakeswap/sdk'
-import { TokenAddressMap } from '@pancakeswap/token-lists'
+import { Currency, ERC20Token, ChainId } from '@tmyswap/sdk'
+import { TokenAddressMap } from '@tmyswap/token-lists'
 import { GELATO_NATIVE } from 'config/constants'
 import { useAtomValue } from 'jotai'
 import { useMemo } from 'react'

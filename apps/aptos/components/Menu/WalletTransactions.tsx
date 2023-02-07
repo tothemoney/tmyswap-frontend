@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Box, Button, Flex, Text } from '@tmyswap/uikit'
 import { chains } from 'config/chains'
 import isEmpty from 'lodash/isEmpty'
 import { clearAllTransactions } from 'state/transactions/actions'

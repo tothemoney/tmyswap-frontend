@@ -1,5 +1,5 @@
-import { SerializedWrappedToken } from '@pancakeswap/token-lists'
-import { Pool } from '@pancakeswap/uikit'
+import { SerializedWrappedToken } from '@tmyswap/token-lists'
+import { Pool } from '@tmyswap/uikit'
 import BigNumber from 'bignumber.js'
 import poolsConfig from 'config/constants/pools'
 import { transformPool, transformUserData } from 'state/pools/helpers'

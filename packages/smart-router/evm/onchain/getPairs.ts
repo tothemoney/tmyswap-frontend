@@ -1,6 +1,6 @@
-import { ChainId, Currency, CurrencyAmount, Pair, Token } from '@pancakeswap/sdk'
+import { ChainId, Currency, CurrencyAmount, Pair, Token } from '@tmyswap/sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { createMulticall, Call } from '@pancakeswap/multicall'
+import { createMulticall, Call } from '@tmyswap/multicall'
 
 import { wrappedCurrency } from '../utils/currency'
 import IPancakePairABI from '../abis/IPancakePair.json'

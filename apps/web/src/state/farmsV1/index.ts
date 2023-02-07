@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/sdk'
-import { SerializedFarm, SerializedFarmsState } from '@pancakeswap/farms'
+import { ChainId } from '@tmyswap/sdk'
+import { SerializedFarm, SerializedFarmsState } from '@tmyswap/farms'
 import type {
   UnknownAsyncThunkFulfilledAction,
   UnknownAsyncThunkPendingAction,
@@ -8,7 +8,7 @@ import type {
 } from '@reduxjs/toolkit/dist/matchers'
 import { createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit'
 import stringify from 'fast-json-stable-stringify'
-import { getFarmConfig } from '@pancakeswap/farms/constants'
+import { getFarmConfig } from '@tmyswap/farms/constants'
 import type { AppState } from 'state'
 import { getFarmsPriceHelperLpFiles } from 'config/constants/priceHelperLps/index'
 import fetchFarms from './fetchFarms'

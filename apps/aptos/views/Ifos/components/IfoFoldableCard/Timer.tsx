@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import styled from 'styled-components'
-import { Flex, Heading, PocketWatchIcon, Text, Skeleton, Link, TimerIcon } from '@pancakeswap/uikit'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { Flex, Heading, PocketWatchIcon, Text, Skeleton, Link, TimerIcon } from '@tmyswap/uikit'
+import getTimePeriods from '@tmyswap/utils/getTimePeriods'
 import { PublicIfoData } from 'views/Ifos/types'
 import { getStatus } from 'views/Ifos/hooks/helpers'
 

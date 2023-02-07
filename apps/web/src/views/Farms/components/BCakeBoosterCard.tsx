@@ -13,10 +13,10 @@ import {
   useMatchBreakpoints,
   MessageText,
   Message,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import ConnectWalletButton from 'components/ConnectWalletButton'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import Image from 'next/legacy/image'
 import NextLink from 'next/link'
 import styled, { useTheme } from 'styled-components'

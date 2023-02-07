@@ -1,5 +1,5 @@
-import { bscTestnetTokens } from '@pancakeswap/tokens'
-import { SerializedFarmConfig } from '@pancakeswap/farms'
+import { bscTestnetTokens } from '@tmyswap/tokens'
+import { SerializedFarmConfig } from '@tmyswap/farms'
 
 const farms: SerializedFarmConfig[] = [
   /**

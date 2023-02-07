@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import styled from "styled-components";
 import debounce from "lodash/debounce";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@tmyswap/localization";
 import { Input } from "../Input";
 
 const StyledInput = styled(Input)`

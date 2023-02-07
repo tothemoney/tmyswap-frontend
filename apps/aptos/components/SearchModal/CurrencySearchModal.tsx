@@ -1,5 +1,5 @@
 import { useCallback, useState, useRef, useEffect } from 'react'
-import { Currency, Token } from '@pancakeswap/aptos-swap-sdk'
+import { Currency, Token } from '@tmyswap/aptos-swap-sdk'
 import {
   ModalContainer,
   ModalHeader,
@@ -13,12 +13,12 @@ import {
   useMatchBreakpoints,
   MODAL_SWIPE_TO_CLOSE_VELOCITY,
   ImportList,
-} from '@pancakeswap/uikit'
+} from '@tmyswap/uikit'
 import styled from 'styled-components'
-import { usePreviousValue } from '@pancakeswap/hooks'
-import { TokenList } from '@pancakeswap/token-lists'
-import { useTranslation } from '@pancakeswap/localization'
-import { enableList, removeList, useFetchListCallback } from '@pancakeswap/token-lists/react'
+import { usePreviousValue } from '@tmyswap/hooks'
+import { TokenList } from '@tmyswap/token-lists'
+import { useTranslation } from '@tmyswap/localization'
+import { enableList, removeList, useFetchListCallback } from '@tmyswap/token-lists/react'
 import CurrencySearch from './CurrencySearch'
 import ImportToken from './ImportToken'
 import Manage from './Manage'

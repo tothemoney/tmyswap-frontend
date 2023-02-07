@@ -1,4 +1,4 @@
-import { CurrencyAmount, Currency, TradeType } from '@pancakeswap/sdk'
+import { CurrencyAmount, Currency, TradeType } from '@tmyswap/sdk'
 import { useContext } from 'react'
 import { StableTrade, useEstimatedAmount, useStableTradeResponse } from './useStableTradeExactIn'
 import { StableConfigContext } from './useStableConfig'

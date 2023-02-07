@@ -12,10 +12,10 @@ import {
   Button,
   CheckmarkCircleIcon,
   useModal,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { Auction, AuctionStatus, ConnectedBidder } from 'config/constants/types'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { getBalanceNumber } from '@tmyswap/utils/formatBalance'
 import PlaceBidModal from '../PlaceBidModal'
 import AuctionSchedule from './AuctionSchedule'
 import CannotBidMessage from './CannotBidMessage'

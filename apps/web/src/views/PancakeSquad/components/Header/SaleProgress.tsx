@@ -1,5 +1,5 @@
-import { Box, lightColors, Progress, Text } from '@pancakeswap/uikit'
-import { ContextApi } from '@pancakeswap/localization'
+import { Box, lightColors, Progress, Text } from '@tmyswap/uikit'
+import { ContextApi } from '@tmyswap/localization'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 
 type PreEventProps = {

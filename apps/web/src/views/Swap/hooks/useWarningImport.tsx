@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { Token } from '@pancakeswap/sdk'
-import { useModal } from '@pancakeswap/uikit'
+import { Token } from '@tmyswap/sdk'
+import { useModal } from '@tmyswap/uikit'
 
 import { useRouter } from 'next/router'
 

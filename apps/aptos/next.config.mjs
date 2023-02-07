@@ -19,13 +19,13 @@ const nextConfig = {
   },
   experimental: {
     transpilePackages: [
-      '@pancakeswap/ui',
-      '@pancakeswap/uikit',
-      '@pancakeswap/localization',
-      '@pancakeswap/hooks',
-      '@pancakeswap/utils',
-      '@pancakeswap/tokens',
-      '@pancakeswap/farms',
+      '@tmyswap/ui',
+      '@tmyswap/uikit',
+      '@tmyswap/localization',
+      '@tmyswap/hooks',
+      '@tmyswap/utils',
+      '@tmyswap/tokens',
+      '@tmyswap/farms',
     ],
   },
   async redirects() {

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Container, Flex, Heading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Box, Button, Container, Flex, Heading, Text, useMatchBreakpoints } from '@tmyswap/uikit'
 import { useRouter } from 'next/router'
 
 const StyledHero = styled(Box)`

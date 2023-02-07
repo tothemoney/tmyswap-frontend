@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { TabMenu as UIKitTabMenu, Tab, Flex, VerifiedIcon, CommunityIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { TabMenu as UIKitTabMenu, Tab, Flex, VerifiedIcon, CommunityIcon } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
 import { ProposalType } from 'state/types'
 
 interface TabMenuProps {

@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
-import { TokenInfo } from '@pancakeswap/token-lists'
-import { Token } from '@pancakeswap/aptos-swap-sdk'
-import { isStructTag } from '@pancakeswap/awgmi'
+import { TokenInfo } from '@tmyswap/token-lists'
+import { Token } from '@tmyswap/aptos-swap-sdk'
+import { isStructTag } from '@tmyswap/awgmi'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {
   if (search.length === 0) return tokens

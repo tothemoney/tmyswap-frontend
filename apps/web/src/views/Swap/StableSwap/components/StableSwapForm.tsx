@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState, useContext, useMemo } from 'react'
 import styled from 'styled-components'
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Percent } from '@tmyswap/sdk'
 import {
   Text,
   ArrowDownIcon,
@@ -14,10 +14,10 @@ import {
   Swap as SwapUI,
   PencilIcon,
   useModal,
-} from '@pancakeswap/uikit'
-import InfoTooltip from '@pancakeswap/uikit/src/components/Timeline/InfoTooltip'
+} from '@tmyswap/uikit'
+import InfoTooltip from '@tmyswap/uikit/src/components/Timeline/InfoTooltip'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@tmyswap/localization'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
 
@@ -32,7 +32,7 @@ import { Field } from 'state/swap/actions'
 import { useSwapState } from 'state/swap/hooks'
 import { useExpertModeManager, useUserSlippageTolerance } from 'state/user/hooks'
 
-import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
+import replaceBrowserHistory from '@tmyswap/utils/replaceBrowserHistory'
 import { currencyId } from 'utils/currencyId'
 
 import { useAccount } from 'wagmi'

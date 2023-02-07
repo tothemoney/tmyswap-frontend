@@ -1,4 +1,4 @@
-import { Currency, Price } from '@pancakeswap/sdk'
+import { Currency, Price } from '@tmyswap/sdk'
 /**
  * Helper to multiply a Price object by an arbitrary amount
  */

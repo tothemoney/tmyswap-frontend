@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { AutoRenewIcon, Button, useToast } from '@tmyswap/uikit'
 import { PoolIds } from 'config/constants/types'
 import { ifoRelease } from 'views/Ifos/generated/ifo'
 import type { VestingData } from 'views/Ifos/hooks/vesting/useFetchUserWalletIfoData'

@@ -1,4 +1,4 @@
-import { Pair } from '@pancakeswap/aptos-swap-sdk'
+import { Pair } from '@tmyswap/aptos-swap-sdk'
 import { HexString, TypeTagParser } from 'aptos'
 import _get from 'lodash/get'
 

@@ -1,6 +1,6 @@
 import { Router } from 'itty-router'
 import { missing, error } from 'itty-router-extras'
-import { CORS_ALLOW, handleCors, wrapCorsHeader } from '@pancakeswap/worker-utils'
+import { CORS_ALLOW, handleCors, wrapCorsHeader } from '@tmyswap/worker-utils'
 
 const _corsMethods = `POST, OPTIONS`
 const _corsHeaders = `referer, origin, content-type, x-sf`
@@ -17,7 +17,7 @@ router.post('/bsc-exchange', async (request, _, headers: Headers) => {
   const response = await fetch(NODE_REAL_DATA_ENDPOINT, {
     headers: {
       'X-Forwarded-For': ip,
-      origin: isLocalHost ? 'https://pancakeswap.finance' : headers.get('origin') || '',
+      origin: isLocalHost ? 'https://tmyswap.org' : headers.get('origin') || '',
     },
     body,
     method: 'POST',

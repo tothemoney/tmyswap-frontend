@@ -1,4 +1,4 @@
-import { AtomBox, AtomBoxProps } from "@pancakeswap/ui";
+import { AtomBox, AtomBoxProps } from "@tmyswap/ui";
 import styled from "styled-components";
 
 import { Card, CardBody, CardFooter } from "../../components/Card";

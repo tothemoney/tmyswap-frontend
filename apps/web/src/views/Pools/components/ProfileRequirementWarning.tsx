@@ -1,6 +1,6 @@
-import { Box, Message, MessageText, NextLinkFromReactRouter, Pool } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { Box, Message, MessageText, NextLinkFromReactRouter, Pool } from '@tmyswap/uikit'
+import { useTranslation } from '@tmyswap/localization'
+import { Token } from '@tmyswap/sdk'
 import { useProfileRequirement } from '../hooks/useProfileRequirement'
 
 export function ProfileRequirementWarning({
