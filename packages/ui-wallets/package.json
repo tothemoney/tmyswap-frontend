@@ -5,7 +5,7 @@
   "sideEffects": [
     "*.css.ts"
   ],
-  "private": true,
+  "private": false,
   "dependencies": {
     "@tmyswap/uikit": "*",
     "qrcode.react": "^3.1.0"

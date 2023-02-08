@@ -8,7 +8,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tothemoney/pancake-frontend.git",
+    "url": "https://github.com/tothemoney/tmyswap-frontend.git",
     "directory": "packages/wagmi"
   },
   "scripts": {

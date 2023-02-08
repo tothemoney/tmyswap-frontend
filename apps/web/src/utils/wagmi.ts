@@ -1,8 +1,9 @@
+import { tmyChain } from '@tmyswap/addresses';
 import { BinanceWalletConnector } from '@tmyswap/wagmi/connectors/binanceWallet'
 import { BloctoConnector } from '@tmyswap/wagmi/connectors/blocto'
 import { TrustWalletConnector } from '@tmyswap/wagmi/connectors/trustWallet'
 import { bsc, bscTestnet, goerli, mainnet } from 'wagmi/chains'
-import { configureChains, createClient } from 'wagmi'
+import { configureChains, createClient, Chain } from 'wagmi';
 import memoize from 'lodash/memoize'
 import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { InjectedConnector } from 'wagmi/connectors/injected'
@@ -12,7 +13,7 @@ import { LedgerConnector } from 'wagmi/connectors/ledger'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
 import { SafeConnector } from './safeConnector'
 
-const CHAINS = [bsc, mainnet, bscTestnet, goerli]
+const CHAINS = [/* bsc, mainnet, bscTestnet, goerli, */tmyChain]
 
 const getNodeRealUrl = (networkName: string) => {
   let host = null

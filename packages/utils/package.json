@@ -4,7 +4,7 @@
   "scripts": {
     "test": "vitest --run --globals"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@tmyswap/tokens": "*",
     "@tmyswap/sdk": "*"

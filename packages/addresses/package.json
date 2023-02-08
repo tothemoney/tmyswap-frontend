@@ -1,0 +1,17 @@
+{
+  "name": "@tmyswap/addresses",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Addresses for Tmyswap",
+  "main": "index.js",
+  "module": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tothemoney/tmyswap-frontend.git",
+    "directory": "packages/swap-sdk"
+  },
+  "keywords": [
+    "pancakeswap",
+    "bsc"
+  ]
+}

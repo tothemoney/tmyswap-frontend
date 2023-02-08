@@ -2,7 +2,7 @@
   "name": "@tmyswap/farms",
   "version": "0.0.1",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "npx tsx scripts/build.ts",
     "test": "vitest --run"

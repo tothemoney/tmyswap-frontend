@@ -4,7 +4,7 @@
   "description": "A SDK for getting best routes from AMM",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tothemoney/pancake-frontend.git",
+    "url": "https://github.com/tothemoney/tmyswap-frontend.git",
     "directory": "packages/smart-router"
   },
   "scripts": {

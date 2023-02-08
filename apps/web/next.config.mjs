@@ -31,6 +31,7 @@ const sentryWebpackPluginOptions =
 
 /** @type {import('next').NextConfig} */
 const config = {
+  output: 'standalone',
   compiler: {
     styledComponents: true,
   },
