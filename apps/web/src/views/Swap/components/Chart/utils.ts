@@ -1,3 +1,4 @@
+import addresses from '@tmyswap/addresses'
 import { BNB_ADDRESS } from './constants'
 
 const MIN_VALUE_DISPLAYED = 0.001
@@ -26,7 +27,7 @@ export const getTokenAddress = (tokenAddress: undefined | string) => {
     return ''
   }
   const lowerCaseAddress = tokenAddress.toLowerCase()
-  if (lowerCaseAddress === 'tmy') {
+  if (lowerCaseAddress === addresses.CHAIN_QUERY_NAME) {
     return BNB_ADDRESS
   }
 
