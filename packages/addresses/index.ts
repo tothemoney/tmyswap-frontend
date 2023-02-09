@@ -3,6 +3,7 @@ import { Chain } from 'wagmi';
 const config = {
   CHAIN_ID: 8768,
   CHAIN_NAME: "TMY Chain",
+  CHAIN_QUERY_NAME: "tmy",
   RPC_URL: "https://node1.tmyblockchain.org/rpc",
   FACTORY:"0xd382Af605a5699Ab8c96e53e0063C4276773456b",
   INIT_CODE_PAIR_HASH: "0x3e2427e1de228da4316eeebff5e4e72f96281ec95b7dcb677efe0705a1bf2f56",

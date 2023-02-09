@@ -1,11 +1,13 @@
+import addresses from '@tmyswap/addresses';
 import { ChainId } from '@tmyswap/sdk'
 import memoize from 'lodash/memoize'
 import invert from 'lodash/invert'
 
+
 export const CHAIN_QUERY_NAME = {
   [ChainId.ETHEREUM]: 'eth',
   [ChainId.GOERLI]: 'goerli',
-  [ChainId.BSC]: 'tmy',
+  [ChainId.BSC]: addresses.CHAIN_QUERY_NAME,
   [ChainId.BSC_TESTNET]: 'bscTestnet',
 } satisfies Record<ChainId, string>
 
