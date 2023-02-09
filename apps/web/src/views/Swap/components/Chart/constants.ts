@@ -1,4 +1,5 @@
-// BNB Address
-const BNB_ADDRESS = '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'
+import addresses from '@tmyswap/addresses'
+
+const BNB_ADDRESS = addresses.WTMY.toLowerCase();
 
 export { BNB_ADDRESS }
