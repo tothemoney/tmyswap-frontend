@@ -12,6 +12,7 @@ import { useMenuItems } from './hooks/useMenuItems'
 import GlobalSettings from './GlobalSettings'
 import { getActiveMenuItem, getActiveSubMenuItem } from './utils'
 import { SettingsMode } from './GlobalSettings/types'
+import addresses from '@tmyswap/addresses'
 
 const Menu = (props) => {
   const { isDark, setTheme } = useTheme()
@@ -58,8 +59,8 @@ const Menu = (props) => {
         footerLinks={getFooterLinks}
         activeItem={activeMenuItem?.href}
         activeSubItem={activeSubMenuItem?.href}
-        buyCakeLabel={t('Buy CAKE')}
-        buyCakeLink="https://tmyswap.org/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+        buyCakeLabel={t('Buy TMY')}
+        buyCakeLink={`https://tmyswap.org/swap?outputCurrency=${addresses.WTMY}&chainId=8768`}
         {...props}
       />
     </>

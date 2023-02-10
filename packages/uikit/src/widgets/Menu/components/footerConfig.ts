@@ -14,10 +14,10 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
         label: t("Brand"),
         href: "https://docs.tmyswap.org/brand",
       },
-      {
-        label: t("Blog"),
-        href: "https://medium.com/pancakeswap",
-      },
+      // {
+      //   label: t("Blog"),
+      //   href: "https://medium.com/pancakeswap",
+      // },
       {
         label: t("Community"),
         href: "https://docs.tmyswap.org/contact-us/telegram",

@@ -3809,7 +3809,7 @@ exports[`renders correctly 1`] = `
             scale="sm"
             target="_blank"
           >
-            Buy CAKE
+            Buy TMY
             <svg
               class="c57"
               color="backgroundAlt"
