@@ -42,7 +42,7 @@ const Hero = () => {
                 {t('IFO: Initial Farm Offerings')}
               </StyledHeading>
               <StyledSubTitle bold>
-                {/* {t('Buy new tokens launching on BNB Smart Chain')} */}
+                {/* {t('Buy new tokens launching on TMY Chain')} */}
                 {/* TODO: Aptos */}
                 Buy new tokens launching on Aptos
               </StyledSubTitle>

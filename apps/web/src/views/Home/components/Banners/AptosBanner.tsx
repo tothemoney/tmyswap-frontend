@@ -19,7 +19,7 @@ const RightWrapper = styled.div`
   }
 `
 const AptosTitle = styled.div`
-  font-family: 'Kanit';
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 23px;

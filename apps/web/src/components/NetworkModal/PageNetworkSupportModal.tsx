@@ -41,7 +41,7 @@ export function PageNetworkSupportModal() {
   return (
     <Modal title={title || t('Check your network')} hideCloseButton headerBackground="gradientCardHeader">
       <Grid style={{ gap: '16px' }} maxWidth="360px">
-        <Text bold>{t('It’s a BNB Smart Chain only feature')}</Text>
+        <Text bold>{t('It’s a TMY Chain only feature')}</Text>
 
         {image && (
           <Box mx="auto" my="8px" position="relative" width="100%" minHeight="250px">
@@ -59,7 +59,7 @@ export function PageNetworkSupportModal() {
             isLoading={isLoading}
             onClick={() => (isWrongNetwork ? switchNetworkLocal(ChainId.BSC) : switchNetworkAsync(ChainId.BSC))}
           >
-            {t('Switch to %chain%', { chain: 'BNB Smart Chain' })}
+            {t('Switch to %chain%', { chain: 'TMY Chain' })}
           </Button>
         ) : (
           <Message variant="danger">

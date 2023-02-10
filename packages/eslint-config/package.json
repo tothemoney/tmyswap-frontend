@@ -1,7 +1,7 @@
 {
   "name": "@tmyswap/eslint-config-pancake",
   "version": "1.2.0",
-  "description": "Eslint config for PancakeSwap",
+  "description": "Eslint config for TmySwap",
   "main": "lib/index.js",
   "files": [
     "lib"

@@ -1,7 +1,7 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
+  "short_name": "TmySwap",
+  "name": "TmySwap",
+  "description": "Farm CAKE with TmySwap LP Tokens",
   "homepage_url": "https://tmyswap.org",
   "start_url": ".",
   "display": "standalone",

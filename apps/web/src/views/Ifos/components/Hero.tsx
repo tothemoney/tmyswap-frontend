@@ -71,7 +71,7 @@ const Hero = () => {
                 {t('IFO: Initial Farm Offerings')}
               </StyledHeading>
               <StyledSubTitle bold>
-                {t('Buy new tokens launching on BNB Smart Chain')}
+                {t('Buy new tokens launching on TMY Chain')}
                 {isMobile && <StyledButton onClick={handleClick}>{t('How does it work?')}</StyledButton>}
               </StyledSubTitle>
             </Box>

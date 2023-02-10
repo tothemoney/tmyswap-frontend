@@ -21,8 +21,8 @@ const Page: React.FC<
   ...props
 }) => {
   const { t } = useTranslation()
-  const { chainId } = useActiveChainId()
-  const isBSC = chainId === ChainId.BSC
+  // const { chainId } = useActiveChainId()
+  const isBSC = false; // chainId === ChainId.BSC
   const externalText = isBSC ? t('Bridge assets to BNB Chain') : ''
   const externalLinkUrl = isBSC ? 'https://bridge.tmyswap.org/' : ''
 

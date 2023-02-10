@@ -77,9 +77,10 @@ export function useTokenRisk(token?: Token) {
 }
 
 const AccessRisk: React.FC<AccessRiskProps> = ({ token }) => {
-  const [show] = useUserTokenRisk()
-
-  return show && <AccessRiskComponent token={token} />
+  // const [show] = useUserTokenRisk()
+  //
+  // return show && <AccessRiskComponent token={token} />
+  return null;
 }
 
 const TOKEN_RISK_T = {
