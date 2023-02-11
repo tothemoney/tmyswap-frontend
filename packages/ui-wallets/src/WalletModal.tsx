@@ -78,12 +78,12 @@ const TabContainer = ({ children, docLink, docText }: PropsWithChildren<{ docLin
 
   return (
     <AtomBox position="relative" zIndex="modal" className={modalWrapperClass}>
-      <AtomBox position="absolute" style={{ top: '-50px' }}>
-        <TabMenu activeIndex={index} onItemClick={setIndex} gap="0px" isColorInverse>
-          <Tab>{t('Connect Wallet')}</Tab>
-          <Tab>{t('What’s a Web3 Wallet?')}</Tab>
-        </TabMenu>
-      </AtomBox>
+      {/*<AtomBox position="absolute" style={{ top: '-50px' }}>*/}
+      {/*  <TabMenu activeIndex={index} onItemClick={setIndex} gap="0px" isColorInverse>*/}
+      {/*    <Tab>{t('Connect Wallet')}</Tab>*/}
+      {/*    /!*<Tab>{t('What’s a Web3 Wallet?')}</Tab>*!/*/}
+      {/*  </TabMenu>*/}
+      {/*</AtomBox>*/}
       <AtomBox
         display="flex"
         position="relative"
@@ -442,7 +442,7 @@ const Intro = ({ docLink, docText }: { docLink: string; docText: string }) => {
       <Heading as="h1" fontSize="20px" color="secondary">
         {t('Haven’t got a wallet yet?')}
       </Heading>
-      <Image src="https://cdn.pancakeswap.com/wallets/wallet_intro.png" width={198} height={178} />
+      {/*<Image src="https://cdn.pancakeswap.com/wallets/wallet_intro.png" width={198} height={178} />*/}
       <Button as={LinkExternal} color="backgroundAlt" variant="subtle" href={docLink}>
         {docText}
       </Button>

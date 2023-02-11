@@ -14,7 +14,7 @@ const IntroSteps = [
     icon: 'https://cdn.pancakeswap.com/wallets/wallet_intro.png',
     description: (
       <Trans>
-        A Web3 Wallet allows you to send and receive crypto assets like bitcoin, BNB, ETH, NFTs and much more.
+        A Web3 Wallet allows you to send and receive crypto assets like bitcoin, TMY, ETH, NFTs and much more.
       </Trans>
     ),
   },

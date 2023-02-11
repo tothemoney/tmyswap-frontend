@@ -55,9 +55,13 @@ const config = {
       '@gnosis.pm/safe-apps-wagmi',
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -174,4 +178,4 @@ const config = {
   },
 }
 
-export default withBundleAnalyzer(withVanillaExtract(withSentryConfig(withAxiom(config), sentryWebpackPluginOptions)))
+export default withBundleAnalyzer(withVanillaExtract(withAxiom(config)))
