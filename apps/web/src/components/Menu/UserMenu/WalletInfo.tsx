@@ -125,7 +125,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
           </LinkExternal>
         </Flex>
         <Flex alignItems="center" justifyContent="space-between">
-          <Text color="textSubtle">BNB {t('Balance')}</Text>
+          <Text color="textSubtle">TMY {t('Balance')}</Text>
           {!bnbBalance.isFetched ? (
             <Skeleton height="22px" width="60px" />
           ) : (
@@ -134,7 +134,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
         </Flex>
         {wBNBBalance.gt(0) && (
           <Flex alignItems="center" justifyContent="space-between">
-            <Text color="textSubtle">WBNB {t('Balance')}</Text>
+            <Text color="textSubtle">WTMY {t('Balance')}</Text>
             {wBNBFetchStatus !== FetchStatus.Fetched ? (
               <Skeleton height="22px" width="60px" />
             ) : (
@@ -142,14 +142,14 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
             )}
           </Flex>
         )}
-        <Flex alignItems="center" justifyContent="space-between">
-          <Text color="textSubtle">{t('CAKE Balance')}</Text>
-          {cakeFetchStatus !== FetchStatus.Fetched ? (
-            <Skeleton height="22px" width="60px" />
-          ) : (
-            <Text>{formatBigNumber(cakeBalance, 3)}</Text>
-          )}
-        </Flex>
+        {/*<Flex alignItems="center" justifyContent="space-between">*/}
+        {/*  <Text color="textSubtle">{t('CAKE Balance')}</Text>*/}
+        {/*  {cakeFetchStatus !== FetchStatus.Fetched ? (*/}
+        {/*    <Skeleton height="22px" width="60px" />*/}
+        {/*  ) : (*/}
+        {/*    <Text>{formatBigNumber(cakeBalance, 3)}</Text>*/}
+        {/*  )}*/}
+        {/*</Flex>*/}
       </Box>
       <CakeBenefitsCard onDismiss={onDismiss} />
       <Button variant="secondary" width="100%" minHeight={48} onClick={handleLogout}>

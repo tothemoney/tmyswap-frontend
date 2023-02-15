@@ -171,4 +171,6 @@ export { default as PetraWalletIcon } from "./Icons/PetraWallet";
 export { default as SortArrowIcon } from "./Icons/SortArrowIcon";
 export { default as YoutubeIcon } from "./Icons/YoutubeIcon";
 export { default as BridgeIcon } from "./Icons/BridgeIcon";
+export { default as VkIcon } from "./Icons/VkIcon";
+export { default as FacebookIcon } from "./Icons/FacebookIcon";
 export type { SvgProps } from "./types";

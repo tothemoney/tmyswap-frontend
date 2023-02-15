@@ -7,24 +7,24 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t("Contact"),
-        href: "https://docs.tmyswap.org/contact-us",
-        isHighlighted: true,
+        href: "https://discord.gg/EQHqDab8Mj",
+        // isHighlighted: true,
       },
-      {
-        label: t("Brand"),
-        href: "https://docs.tmyswap.org/brand",
-      },
+      // {
+      //   label: t("Brand"),
+      //   href: "mailto:media@tmychain.org",
+      // },
       // {
       //   label: t("Blog"),
       //   href: "https://medium.com/pancakeswap",
       // },
-      {
-        label: t("Community"),
-        href: "https://docs.tmyswap.org/contact-us/telegram",
-      },
+      // {
+      //   label: t("Community"),
+      //   href: "https://docs.tmyswap.org/contact-us/telegram",
+      // },
       {
         label: t("Litepaper"),
-        href: "https://v2litepaper.tmyswap.org/",
+        href: "https://drive.google.com/drive/folders/1_0JFxV1FSWDvAVZlmlA50nAFDgZsIyLN",
       },
     ],
   },
@@ -33,15 +33,15 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t("Customer Support"),
-        href: "https://docs.tmyswap.org/contact-us/customer-support",
+        href: "https://discord.gg/EQHqDab8Mj",
       },
-      {
-        label: t("Troubleshooting"),
-        href: "https://docs.tmyswap.org/help/troubleshooting",
-      },
+      // {
+      //   label: t("Troubleshooting"),
+      //   href: "https://docs.tmyswap.org/help/troubleshooting",
+      // },
       {
         label: t("Guides"),
-        href: "https://docs.tmyswap.org/get-started",
+        href: "https://drive.google.com/drive/folders/1_0JFxV1FSWDvAVZlmlA50nAFDgZsIyLN",
       },
     ],
   },
@@ -54,20 +54,20 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
       },
       {
         label: t("Documentation"),
-        href: "https://docs.tmyswap.org",
+        href: "https://drive.google.com/drive/folders/1_0JFxV1FSWDvAVZlmlA50nAFDgZsIyLN",
       },
-      {
-        label: t("Bug Bounty"),
-        href: "https://docs.tmyswap.org/code/bug-bounty",
-      },
-      {
-        label: t("Audits"),
-        href: "https://docs.tmyswap.org/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
-      },
-      {
-        label: t("Careers"),
-        href: "https://docs.tmyswap.org/hiring/become-a-chef",
-      },
+      // {
+      //   label: t("Bug Bounty"),
+      //   href: "https://docs.tmyswap.org/code/bug-bounty",
+      // },
+      // {
+      //   label: t("Audits"),
+      //   href: "https://docs.tmyswap.org/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+      // },
+      // {
+      //   label: t("Careers"),
+      //   href: "https://docs.tmyswap.org/hiring/become-a-chef",
+      // },
     ],
   },
 ];

@@ -6,8 +6,8 @@ import { SvgProps } from "../types";
 const Logo: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (
     <Svg viewBox="0 0 162 48" {...props}>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M36.9999 21.5435L52.017 12H56V42H52.017V16.7039L36.9999 26.2474L22.0967 16.7039V42H18V12H22.0013L36.9999 21.5435Z" fill="url(#paint0_linear_106_11)"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.0253 31.584L49.9728 24.0252L50 28.5052L38.9601 34.9473V42H35.11V34.9598L24 28.4759L24.0311 24L37.0253 31.584Z" fill="url(#paint1_linear_106_11)"/>
+        <path fillRule="evenodd" clipRule="evenodd" d="M36.9999 21.5435L52.017 12H56V42H52.017V16.7039L36.9999 26.2474L22.0967 16.7039V42H18V12H22.0013L36.9999 21.5435Z" fill="url(#paint0_linear_106_11)"/>
+        <path fillRule="evenodd" clipRule="evenodd" d="M37.0253 31.584L49.9728 24.0252L50 28.5052L38.9601 34.9473V42H35.11V34.9598L24 28.4759L24.0311 24L37.0253 31.584Z" fill="url(#paint1_linear_106_11)"/>
         <path d="M34.6954 9.99995L18 9.95081V6H56V9.95081H39.3614V16.8647L37.0684 18L34.6954 16.9139V9.99995Z" fill="url(#paint2_linear_106_11)"/>
         <path d="M71.2683 32.4006C71.2683 32.9603 71.2866 33.3874 71.3231 33.6819C71.3963 33.947 71.6707 34.3741 72.1464 34.9632C72.6585 35.5228 73.5731 35.8027 74.8902 35.8027C75.622 35.8027 76.2988 35.6849 76.9207 35.4492C77.5427 35.1841 78 34.8601 78.2926 34.4772C78.5854 34.0648 78.7317 33.6525 78.7317 33.2401C78.7683 32.7982 78.7866 32.5037 78.7866 32.3565V30.2798C78.7866 29.6907 78.7501 29.2489 78.6769 28.9544C78.6403 28.6598 78.4208 28.3505 78.0183 28.0265C77.6525 27.6731 77.1037 27.3638 76.3719 27.0987C75.6768 26.8042 74.4329 26.3918 72.6402 25.8616C70.8841 25.3314 69.4024 24.5067 68.1951 23.3873C66.9877 22.2386 66.3841 20.6775 66.3841 18.704V17.3785C66.3841 15.3756 67.2072 13.6524 68.8536 12.2091C70.5365 10.7364 72.622 10 75.1098 10C77.6342 10 79.7378 10.7217 81.4208 12.165C83.1403 13.5788 84 15.3166 84 17.3785V18.704H78.7866V17.3785C78.7866 16.9661 78.7501 16.6127 78.6769 16.3181C78.6037 16.0236 78.311 15.5965 77.7988 15.0368C77.2867 14.4772 76.4269 14.1974 75.2195 14.1974C74.1585 14.1974 73.2805 14.5066 72.5853 15.1252C71.9269 15.7143 71.5976 16.4654 71.5976 17.3785V18.704C71.5976 19.2636 71.6159 19.676 71.6524 19.9411C71.7256 20.1767 71.9269 20.4566 72.2561 20.7805C72.5853 21.1046 73.061 21.3844 73.6829 21.62C74.3049 21.8557 75.4939 22.2386 77.25 22.7688C79.0427 23.2695 80.6159 24.109 81.9695 25.2872C83.3232 26.4359 84 28.0118 84 30.0148V32.4006C84 33.3726 83.872 34.2268 83.6159 34.9632C83.3964 35.6995 82.6647 36.7305 81.4208 38.056C80.1768 39.352 78.0366 40 75 40C71.8537 40 69.5671 39.1753 68.1402 37.5258C66.7134 35.8469 66 34.1384 66 32.4006V31.3402H71.2683V32.4006Z" fill="url(#paint3_linear_106_11)"/>
         <path d="M100.87 40L96.9999 21.7391L93.1793 40H88.8129L84 10H89.0611L91.3931 28.1259L95.2137 10H98.7366L102.607 28.1259L104.988 10H110L105.336 40H100.87Z" fill="url(#paint4_linear_106_11)"/>
@@ -15,34 +15,34 @@ const Logo: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
         <path d="M128 40V10H136.077C137.079 10 138.079 10.1799 139.081 10.5397C140.081 10.8996 140.91 11.3793 141.566 11.979C142.257 12.5487 142.826 13.2384 143.274 14.048C143.758 14.8576 144 15.6372 144 16.3868V20.7496C144 21.8591 143.827 22.8486 143.482 23.7181C143.137 24.5877 142.532 25.3973 141.669 26.1469C140.841 26.8666 139.926 27.3913 138.925 27.7211C137.959 28.021 136.82 28.1709 135.508 28.1709H132.919V40H128ZM138.459 23.2684C138.77 22.9985 138.959 22.7137 139.029 22.4138C139.133 22.114 139.184 21.7391 139.184 21.2894V16.8366C139.184 15.997 138.891 15.3074 138.304 14.7676C137.717 14.2279 136.923 13.958 135.922 13.958H132.919V24.123H135.508C136.198 24.123 136.751 24.078 137.165 23.988C137.613 23.8681 138.045 23.6282 138.459 23.2684Z" fill="url(#paint6_linear_106_11)"/>
         <defs>
           <linearGradient id="paint0_linear_106_11" x1="36.9999" y1="20.5293" x2="36.9999" y2="42" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="#5F5F5E"/>
+            <stop stopColor="white"/>
+            <stop offset="1" stopColor="#5F5F5E"/>
           </linearGradient>
           <linearGradient id="paint1_linear_106_11" x1="37" y1="24.3159" x2="37" y2="42" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#55545F"/>
-            <stop offset="1" stop-color="white"/>
+            <stop stopColor="#55545F"/>
+            <stop offset="1" stopColor="white"/>
           </linearGradient>
           <linearGradient id="paint2_linear_106_11" x1="37.0009" y1="18" x2="37.0009" y2="5.96027" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#1F1F1D"/>
-            <stop offset="0.447917" stop-color="#898888"/>
-            <stop offset="0.760417" stop-color="#E2E2E2"/>
-            <stop offset="1" stop-color="white"/>
+            <stop stopColor="#1F1F1D"/>
+            <stop offset="0.447917" stopColor="#898888"/>
+            <stop offset="0.760417" stopColor="#E2E2E2"/>
+            <stop offset="1" stopColor="white"/>
           </linearGradient>
           <linearGradient id="paint3_linear_106_11" x1="73.0791" y1="18.5292" x2="73.0791" y2="40" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="#5F5F5E"/>
+            <stop stopColor="white"/>
+            <stop offset="1" stopColor="#5F5F5E"/>
           </linearGradient>
           <linearGradient id="paint4_linear_106_11" x1="74.113" y1="18.4128" x2="74.113" y2="40.2699" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="#5F5F5E"/>
+            <stop stopColor="white"/>
+            <stop offset="1" stopColor="#5F5F5E"/>
           </linearGradient>
           <linearGradient id="paint5_linear_106_11" x1="71.6783" y1="18.4128" x2="71.6783" y2="40.2699" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="#5F5F5E"/>
+            <stop stopColor="white"/>
+            <stop offset="1" stopColor="#5F5F5E"/>
           </linearGradient>
           <linearGradient id="paint6_linear_106_11" x1="71.9044" y1="18.4128" x2="71.9044" y2="40.2699" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="#5F5F5E"/>
+            <stop stopColor="white"/>
+            <stop offset="1" stopColor="#5F5F5E"/>
           </linearGradient>
         </defs>
     </Svg>

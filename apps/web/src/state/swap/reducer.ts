@@ -1,4 +1,4 @@
-import { createReducer } from '@reduxjs/toolkit'
+import { createReducer, original } from '@reduxjs/toolkit';
 import {
   Field,
   replaceSwapState,
@@ -42,6 +42,9 @@ const initialState: SwapState = {
 
 export default createReducer<SwapState>(initialState, (builder) =>
   builder
+    // .addMatcher(() => true, (state, action) => {
+    //   console.log('default action', original(state), action);
+    // })
     .addCase(
       replaceSwapState,
       (state, { payload: { typedValue, recipient, field, inputCurrencyId, outputCurrencyId } }) => {
@@ -106,5 +109,5 @@ export default createReducer<SwapState>(initialState, (builder) =>
         state.derivedPairDataById[pairId] = {}
       }
       state.derivedPairDataById[pairId][timeWindow] = pairData
-    }),
+    })
 )
