@@ -39,10 +39,10 @@ export const InfoPageLayout = ({ children }) => {
               label: t('Swap'),
               href: '/info',
             },
-            {
-              label: t('StableSwap'),
-              href: '/info?type=stableSwap',
-            },
+            // {
+            //   label: t('StableSwap'),
+            //   href: '/info?type=stableSwap',
+            // },
           ]}
           activeItem={isStableSwap ? '/info?type=stableSwap' : '/info'}
         />
