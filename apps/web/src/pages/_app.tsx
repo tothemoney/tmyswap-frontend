@@ -69,16 +69,16 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         />
         <meta
           name="description"
-          content="Cheaper and faster than Uniswap? Discover TmySwap, the leading DEX on TMY Chain (TMY) with the best farms in DeFi"
+          content="Discover TmySwap, the first DEX on TMY Chain (TMY)"
         />
         <meta name="theme-color" content="#1FC7D4" />
         <meta name="twitter:image" content="https://tmyswap.org/images/hero.png" />
         <meta
           name="twitter:description"
-          content="The most popular AMM on TMY! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by TmySwap), NFTs, and more, on a platform you can trust."
+          content="The first AMM on TMY!"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🥞 TmySwap - A next evolution DeFi exchange on TMY Chain (TMY)" />
+        <meta name="twitter:title" content="TmySwap - DeFi exchange on TMY Chain (TMY)" />
         <title>TmySwap</title>
         {/* (Component as NextPageWithLayout).mp && (
           // eslint-disable-next-line @next/next/no-sync-scripts
