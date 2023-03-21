@@ -72,7 +72,7 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
           content="Discover TmySwap, the first DEX on TMY Chain (TMY)"
         />
         <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://tmyswap.org/images/hero.png" />
+        <meta name="twitter:image" content="https://tmyswap.org/images/hero_tmy.png" />
         <meta
           name="twitter:description"
           content="The first AMM on TMY!"
