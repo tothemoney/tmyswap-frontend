@@ -1,4 +1,4 @@
-export const PANCAKE_EXTENDED = 'https://tokens.tmyswap.org/pancakeswap-extended.json'
+export const PANCAKE_EXTENDED = 'https://tokens.tmyswap.org/'
 export const COINGECKO = 'https://tokens.tmyswap.org/coingecko.json'
 export const COINGECKO_ETH = 'https://tokens.coingecko.com/uniswap/all.json'
 export const CMC = 'https://tokens.tmyswap.org/cmc.json'
